@@ -1,2 +1,2 @@
 # limi.github.io
-limi.net
+limi.github.io
