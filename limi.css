@@ -41,6 +41,40 @@ img {
 
 /* @end */
 
+/* @group Typeface definitions */
+
+/* Example of how to define the fonts in families to avoid e.g. double italics
+
+@font-face {
+font-family: 'Ubuntu';
+src: url('Ubuntu-R-webfont.eot');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Ubuntu';
+src: url('Ubuntu-I-webfont.eot');
+font-weight: normal;
+font-style: italic;
+}
+@font-face {
+font-family: 'Ubuntu';
+src: url('Ubuntu-B-webfont.eot');
+font-weight: bold;
+font-style: normal;
+}
+@font-face {
+font-family: 'Ubuntu';
+src: url('Ubuntu-BI-webfont.eot');
+font-weight: bold;
+font-style: italic;
+}
+.test {
+font-family: Ubuntu, arial, sans-serif;
+}*/
+
+/* @end */
+
 /* @group Basics */
 
 body {
@@ -217,6 +251,11 @@ b, strong, label {
 	font-weight: 600;
 }
 
+i, em {
+	font-family: "Iowan Old Style BT Pro Italic", Baskerville, "Libre Baskerville", Georgia, serif;
+	font-style: normal;
+}
+
 blockquote {
     border: 1px solid #ddd; 
     padding: 1em;
@@ -317,7 +356,7 @@ acronym {
 }
 
 abbr[title='and'] {
-    font-style: italic;
+	font-family: "Iowan Old Style BT Pro Italic", Baskerville, "Libre Baskerville", Georgia, serif;
     font-size: 100%;
 }
 
@@ -341,51 +380,6 @@ fieldset {border: none;}
 /* @end */
 
 /* @group Site-specific */
-
-#edit-bar {
-margin-bottom: 2em !important;
-}
-
-#header {
-	position: relative;
-	margin: 0 auto;
-	height: 3em;
-	padding-bottom: 1em;
-	/* border-bottom: 1px solid #ccc; */
-}
-
-#header-name a {
-	font-style: normal;
-	font-size: 200%;
-	text-align: center;
-	color: #b63;
-	font-weight: normal;
-	text-transform: uppercase;
-	line-height: 0.8em;
-	letter-spacing: 0.04em;
-	/* position: absolute;
-	left: 0em; */
-	border: none;
-}
-#header-tag a {
-	color: #333;
-	text-align: justify;
-	font-style: normal;
-	font-size: 92%;
-	line-height: 1em;
-	position: absolute;
-	right: 0em;
-	border: none;
-	text-transform: uppercase;
-}
-#header-tag a abbr {
-	color: #b63;
-	padding: 0 0.1em;
-	font-size: 1.4em;
-	font-family: "Iowan Old Style BT Pro Roman", Baskerville, "Libre Baskerville", "Palatino Linotype", "Century Schoolbook L", serif;
-	vertical-align: text-bottom;
-}
-
 
 p.documentDescription {
     text-align: center;
@@ -507,147 +501,6 @@ p.documentByLine {
 }
 /* @end */
 
-/* @group Listings */
-
-ul.news {
-	list-style: none;
-	font-size: 1em;
-	padding: 0 !important;
-}
-
-ul.news li {
-	display: inline-block;
-	width: 49%;
-	margin-bottom: 1em;
-	vertical-align: top;
-	text-align: center;	
-}
-
-ul.news li:first-child {
-	width: 100%;
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	/* border-bottom: 1px solid #ccc; */
-}
-
-ul.news li h2 {
-	padding: 0 1em;
-}
-
-ul.news li p {
-	text-indent: 0;
-	text-align: center;
-	padding: 0 1em;
-}
-ul.news li p:first-line {
-	font-variant: normal;
-        letter-spacing: 0;
-        
-}
-
-ul.news li p.documentByLine:first-line {
-	font-variant: small-caps;
-        letter-spacing: 0.2em;
-}
-
-ul.news h2.tileHeadline {
-    margin-top: 0;
-}
-
-ul.news li p.documentByLine {
-	font-size: 1.1em;
-	letter-spacing: 0.2em;
-	border: none;
-}
-
-ul.news li.update {
-	display: block;
-	width: 100%;
-}
-
-
-/*
-ul.news li.update:nth-child(even) {
-	border-top: 1px solid #ccc;
-}
-ul.news li.update:nth-child(odd) {
-	border-bottom: 1px solid #ccc;
-}
-*/
-
-
-ul.leaders {
-    max-width: 40em;
-    padding: 0;
-    margin: 0 1em;
-    overflow-x: hidden;
-    list-style: none;
-    line-height: 2em;
-}
-ul.leaders li:before {
-    float: left;
-    width: 0;
-    white-space: nowrap;
-    content:
-
- "…………………………………………………………………………………………………………"
- "…………………………………………………………………………………………………………"
- "…………………………………………………………………………………………………………"
- "…………………………………………………………………………………………………………"
-}
-ul.leaders a:first-child {
-    padding-right: 0.2em;
-    background: white;
-}
-ul.leaders a + span {
-    float: right;
-    padding-left: 0.3em;
-    background: white;
-}
-
-
-
-/* @end */
-
-
-/* @group Batch nav */
-
-div.listingBar {
-	font-size: 1em;	
-	margin: 1em 0;
-	padding: 1em 0 0 0;
-	text-align: center;
-/*	border-top: 1px solid #ccc;	*/
-}
-
-div.listingBar .next {
-	display: inline-block;
-	float: right;
-}
-
-div.listingBar .previous {
-	display: inline-block;
-	float: left;
-}
-div.listingBar .current {
-	padding: 0 0.25em;
-}
-div.listingBar a {
-	display: inline-block;
-	padding: 0.25em 0.5em;
-	border: 1px solid #ccc;
-	color: #b63;	
-}
-
-div.listingBar a:hover {
-	color: White !important;
-	background-color: #ccc !important;
-	border-color: #ccc !important;
-}
-
-
-/* @end */
-
 /* @group Data tables */
 
 table.listing {
@@ -689,76 +542,6 @@ table.listing tbody tr:nth-child(even) {
 
 /* @end */
 
-
-/* @group Status messages */
-
-dl.portalMessage {
-    margin: 1em 0;
-	font-size: 80%;
-	border: 1px solid #996;
-	background-color: #ffffe3; 
-}
-dl.portalMessage a {
-    color: black;
-	border-color: black;
-}
-dl.portalMessage dt {
-    background-color: #996; 
-    font-weight: bold;
-    float: left;
-    margin: 0 0.5em 0 0;
-    padding: 0.5em 0.75em;
-    color: White;
-    line-height: 1.25em;
-}
-dl.portalMessage dd {
-    padding: 0.5em 0.5em; 
-    margin: 0;
-    line-height: 1.25em;
-}
-dl.warning {
-    border-color: #d80;
-}
-dl.warning dt {
-    background-color: #d80;
-}
-dl.error {
-    border-color: #d00;    
-}
-dl.error dt {
-    background-color: #d00; 
-}
-dl.warning {
-    border-color: #d80;    
-}
-dl.warning dd {
-    background-color: #fd7; 
-}
-dl.error {
-    border-color: red;    
-}
-dl.error dd {
-    background-color: #fdc; 
-}
-dl.warning a,
-dl.error a {
-    text-decoration: underline;
-}
-
-/* Additional specificity for when status is shown inside #content */
-#content dl.portalMessage {
-	font-size: 100%;
-}
-#content dl.portalMessage dt {
-    margin: 0 0.5em 0 0;
-    padding: 0.5em 0.75em;
-}
-#content dl.portalMessage dd {
-    margin: 0;
-}
-
-/* @end */
-
 /* @group Table of Contents */
 
 dl#document-toc {
@@ -791,113 +574,12 @@ dl#document-toc dd ol {
 
 @media screen and (max-device-width: 640px) {
 
-body {
-	width: 90%;
-
-	padding: 0;
-	font-size: 140%;
-}	
-
-h1.documentFirstHeading {
-    width: 9em;
-}
-
-p.documentDescription {
-    width: 18em;
-}
-
-p {
-	text-align: left;
-	text-indent: 0;
-	margin: 0.5em 0;
-}
-ul, ol, dl {
-	text-align: left;
-}
-ul, ol {
-    padding-left: 1em;
-}
-dd {
-	margin-left: 1em;
-}
-pre {
-	font-size: 60%;
-	padding: 1em;
-}
-ul.news {
-	margin: 0;
-	padding: 0;
-}
-ul.news li {
-	/* border-top: 1px solid #ccc; */
-	padding: 2em 0 !important;
-	margin: 0;
-	width: 100%;
-	display: block;
-}
-ul.news li:first-child {
-	border: none;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-div.listingBar {
-	border-top: none;
-}
-.sidenote,
-img.image-right,
-img.image-left,
-img-image-center,
-img.image-inline {
-	float: none;
-	display: block;
-	margin: 1em auto;
-    width: 100%;
-    padding: 0;
-}
-#header {
-	height: 8em;
-    padding-bottom: 0;
-}
-#header-name a {
-	position: relative;
-	display: block;
-	text-align: center;
-	left: inherit;
-}
-#header-tag a {
-	font-size: 60%;
-	position: relative;
-	right: inherit;
-}
-#header-tag a abbr {
-	padding: 0;
-	vertical-align: baseline;
-	font-size: 1em;
-}
-#portrait {
-	float: none;
-	margin: 0.5em;
-}
-#colophon,
-#colophon p,
-#colophon-footer {
-	text-align: center;
-}
-
-#colophon-footer {
-	margin-top: 0.5em;
-}
-#quote {
-	/* border-top: 1px solid #ccc;*/
-	padding-top: 1em;
-}
-
 }
 
 /* iPad and tablets */
 @media screen and (min-device-width: 768px) and (max-device-width: 768px) {
 
-body { font-size: 175% }
+/*body { font-size: 175% }*/
 
 }
 
