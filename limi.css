@@ -47,10 +47,18 @@ body {
 	background-color: #fff;
 	color: #333;
 	font-family: "Iowan Old Style BT Pro Roman", Baskerville, "Libre Baskerville", Georgia, serif;
-	font-size: 1.2em;
+	font-size: 1.2em;	
+    text-rendering: optimizeLegibility;
+}
+
+header {
+	background-image: url("paul-morris-167780-unsplash-cropped-wide.jpg");
+	background-size: cover;
+}
+
+article {
 	width: 38em;
 	margin: 2em auto;
-        text-rendering: optimizeLegibility;
 }
 
 a:link {
@@ -91,6 +99,9 @@ h1, h2 {
 }
 h1 {
 	font-size: 4em;
+	color: rgba(255,255,255,0.9);
+	height: 3em;
+	padding-top: 1em;
 }
 h2 {
 	font-size: 3em;
@@ -378,14 +389,14 @@ margin-bottom: 2em !important;
 
 p.documentDescription {
     text-align: center;
-    padding: 1em 0;
-    /* border-bottom: 1px solid #ccc; */
+	padding: 1em 0;
 	font-variant: small-caps;
     margin: auto;
     width: 20em;
     text-transform: lowercase;
     text-indent: 0;
-letter-spacing: 0.1em;
+	letter-spacing: 0.1em;
+	
 }
 
 p.documentByLine { 
