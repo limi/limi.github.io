@@ -362,9 +362,10 @@ acronym {
 }
 
 abbr[title='and'] {
-	font-family: "Iowan Old Style BT Pro Italic", Baskerville, "Libre Baskerville", Georgia, serif;
+	font-family: Baskerville, "Iowan Old Style BT Pro Italic", "Libre Baskerville", Georgia, serif;
     font-size: 100%;
 	border: none;
+	font-style: italic;
 }
 
 del { color: #b00; }
