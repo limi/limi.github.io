@@ -82,7 +82,7 @@ body {
 	color: #333;
 	font-family: "Iowan Old Style BT Pro Roman", Baskerville, "Libre Baskerville", Georgia, serif;
 	font-size: 1.2em;	
-    text-rendering: optimizeLegibility;
+/*    text-rendering: optimizeLegibility;*/
 }
 
 header {
