@@ -249,12 +249,15 @@ dd {
 
 
 b, strong, label {
-	font-weight: 600;
+	font-family: "Iowan Old Style BT Pro Bold", Baskerville, "Libre Baskerville", Georgia, serif;
+	font-weight: normal;
+	/* TODO: make this a real bold */
 }
 
 i, em {
 	font-family: "Iowan Old Style BT Pro Italic", Baskerville, "Libre Baskerville", Georgia, serif;
 	font-style: normal;
+	/* TODO: make this a real italic */
 }
 
 blockquote {
