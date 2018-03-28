@@ -88,7 +88,7 @@ body {
 header {
 	background-image: url("paul-morris-167780-unsplash-cropped-wide.jpg");
 	background-size: cover;
-		height: 10em;
+		height: 7em;
 }
 
 article {
@@ -134,7 +134,7 @@ h1, h2 {
 }
 h1 {
 	font-size: 4em;
-	padding-top: 1em;
+	padding-top: 0.5em;
 	color: rgba(255,255,255,0.9);
 }
 h2 {
@@ -163,12 +163,13 @@ h2, h3 {
 }
 
 /* h2 + p:first-line,
-h3 + p:first-line, */
+h3 + p:first-line, 
 p.documentDescription + p:first-line,
 hr + p:first-line {
-/*    text-transform: lowercase;
+    text-transform: lowercase;
     font-variant: small-caps;
-*/}
+}
+*/
 
 /* First words are transformed to small-caps if they are marked with a span immediately inside a p */
 p span:first-child {
@@ -178,10 +179,10 @@ p span:first-child {
 
 p.documentDescription + p:first-letter,
 hr + p:first-letter {
-    font-size: 4.5em; 
+    font-size: 3.4em; 
 
     line-height: 1;
-    margin-top: 0.05em; 
+    margin-top: 0.04em; 
 /* One of the rare Firefox CSS bugs! Firefox is still applying the parent 
    paragraph’s line-height to the first letter, ignoring its much-larger 
    font size, while the other browsers are correctly applying a line-height
@@ -353,11 +354,13 @@ acronym {
     font-style: normal;
     border: none;
     cursor: help;
+	letter-spacing: -0.1em;
 }
 
 abbr[title='and'] {
 	font-family: "Iowan Old Style BT Pro Italic", Baskerville, "Libre Baskerville", Georgia, serif;
     font-size: 100%;
+	border: none;
 }
 
 del { color: #b00; }
