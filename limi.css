@@ -88,12 +88,12 @@ body {
 header {
 	background-image: url("paul-morris-167780-unsplash-cropped-wide.jpg");
 	background-size: cover;
-		height: 20em;
+		height: 10em;
 }
 
 article {
 	width: 38em;
-	margin: -14em auto 2em auto;
+	margin: 2em auto;
 }
 
 a:link {
@@ -131,11 +131,11 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
 
 h1, h2 {
 	letter-spacing: -1px;
-	color: rgba(255,255,255,0.9);
 }
 h1 {
 	font-size: 4em;
 	padding-top: 1em;
+	color: rgba(255,255,255,0.9);
 }
 h2 {
 	font-size: 3em;
