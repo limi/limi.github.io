@@ -254,10 +254,15 @@ b, strong, label {
 	/* TODO: make this a real bold */
 }
 
-i, em {
+i {
 	font-family: "Iowan Old Style BT Pro Italic", Baskerville, "Libre Baskerville", Georgia, serif;
 	font-style: normal;
 	/* TODO: make this a real italic */
+}
+
+em { 
+    font-variant: small-caps;
+	font-style: normal;
 }
 
 blockquote {
@@ -357,7 +362,6 @@ acronym {
     font-style: normal;
     border: none;
     cursor: help;
-	letter-spacing: -0.1em;
 	text-decoration: none;
 }
 
