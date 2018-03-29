@@ -80,7 +80,7 @@ font-family: Ubuntu, arial, sans-serif;
 body {
 	background-color: #fff;
 	color: #333;
-	font-family: "Iowan Old Style BT Pro Roman", Baskerville, "Libre Baskerville", Georgia, serif;
+	font-family: "Iowan Old Style", Baskerville, "Libre Baskerville", Georgia, serif;
 	font-size: 1.2em;	
 /*    text-rendering: optimizeLegibility;*/
 }
@@ -251,15 +251,12 @@ dd {
 
 
 b, strong, label {
-	font-family: "Iowan Old Style BT Pro Bold", Baskerville, "Libre Baskerville", Georgia, serif;
-	font-weight: normal;
-	/* TODO: make this a real bold */
+	font-family: "Iowan Old Style", Baskerville, "Libre Baskerville", Georgia, serif;
+
 }
 
 i {
-	font-family: "Iowan Old Style BT Pro Italic", Baskerville, "Libre Baskerville", Georgia, serif;
-	font-style: normal;
-	/* TODO: make this a real italic */
+	font-family: "Iowan Old Style", Baskerville, "Libre Baskerville", Georgia, serif;
 }
 
 em { 
@@ -368,7 +365,7 @@ acronym {
 }
 
 abbr[title='and'] {
-	font-family: Baskerville, "Iowan Old Style BT Pro Italic", "Libre Baskerville", Georgia, serif;
+	font-family: Baskerville, "Iowan Old Style", "Libre Baskerville", Georgia, serif;
 	border: none;
 	font-style: italic;
 }
