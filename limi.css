@@ -286,7 +286,7 @@ blockquote:before, blockquote:after
 	transform: skew(-5deg) rotate(-5deg);
 	box-shadow: 0 0.6em 1em rgba(0, 0, 0, 0.3);
     z-index: -1; 
-*/} 
+} 
 
 blockquote:after
 {
