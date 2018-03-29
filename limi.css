@@ -87,8 +87,9 @@ body {
 
 header {
 	background-image: url("paul-morris-167780-unsplash-cropped-wide.jpg");
-	background-size: cover;
-		height: 7em;
+	height: 14em;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 article {
@@ -404,7 +405,7 @@ p.documentDescription {
 	
 }
 
-p.documentByLine { 
+p.byline { 
     color: #888; 
     font-variant: small-caps; 
     display: block; 
@@ -412,6 +413,7 @@ p.documentByLine {
     letter-spacing:0.3em;
     text-transform: lowercase;
     clear:both;
+	margin-bottom: -1em;
 }
 
 .discreet {
