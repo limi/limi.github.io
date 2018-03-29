@@ -33,39 +33,6 @@ img {
 
 /* @end */
 
-/* @group Typeface definitions */
-
-/* Example of how to define the fonts in families to avoid e.g. double italics
-
-@font-face {
-font-family: 'Ubuntu';
-src: url('Ubuntu-R-webfont.eot');
-font-weight: normal;
-font-style: normal;
-}
-@font-face {
-font-family: 'Ubuntu';
-src: url('Ubuntu-I-webfont.eot');
-font-weight: normal;
-font-style: italic;
-}
-@font-face {
-font-family: 'Ubuntu';
-src: url('Ubuntu-B-webfont.eot');
-font-weight: bold;
-font-style: normal;
-}
-@font-face {
-font-family: 'Ubuntu';
-src: url('Ubuntu-BI-webfont.eot');
-font-weight: bold;
-font-style: italic;
-}
-.test {
-font-family: Ubuntu, arial, sans-serif;
-}*/
-
-/* @end */
 
 /* @group Basics */
 
