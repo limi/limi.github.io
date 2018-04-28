@@ -1,0 +1,61 @@
+---
+layout: base
+---
+{% if page.cover_image %}
+
+<section>
+    <header>
+        <nav style="background-image: url(/images/{{ page.cover_image }})">
+            <a class="secondary" href="/articles">Writing</a> 
+            <a href="/">LIMI</a> 
+            <a class="secondary" href="/contact">Contact</a>
+        </nav>
+    </header>
+</section>
+
+{% endif %}
+<article>
+
+    <div class="container">
+        <header>
+            {% if page.date %}
+            <p class="byline">
+                <time pubdate datetime="{{ page.date | date: "%Y-%m-%d" }}" 
+                      title="{{ page.date | date: "%Y-%m-%d" }}">
+                    {% assign d = page.date | date: "%-d"  %}
+                    {{ page.date | date: "%B" }} 
+                    {% case d %}
+                      {% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+                    {{ page.date | date: "%Y" }}
+                </time>
+            </p>
+            {% endif %}
+            <h1 class="title">{{ page.title }}</h1>
+            {% if page.subtitle %}<p class="description">{{ page.subtitle }}</p>{% endif %}
+        </header>
+
+        <section>
+            {{ content }}
+        </section>
+
+        <hr>
+
+        <footer>
+            <address>
+            <p><a href="https://twitter.com/limi">Alex Limi</a> is currently 
+                <abbr title="Vice President">VP</abbr> Design at 
+                <a target="_blank" href="https://highfive.com/">Highfive</a>, 
+                a company that is simplifying business collaboration. 
+                Previously, he led <a href="https://www.firefox.com/">Firefox</a> 
+                <abbr title="User Experience">UX</abbr> 
+                <abbr title="and">&amp;</abbr> Product Design at <a target="_blank" href="https://www.mozilla.com/">Mozilla</a>,
+                designed at <a target="_blank" href="https://www.google.com/">Google</a>
+                <abbr title="and">&amp;</abbr> is the co-founder of the open source project
+                <a target="_blank" href="https://plone.com/">Plone</a>.
+            </p>
+            </address>
+
+        </footer>
+
+    </div>
+</article>
