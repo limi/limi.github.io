@@ -61,7 +61,7 @@ The idea of “widgets” needs some more explanation, as well as some implement
 
 To make portlets more understandable and generic, we rename them to “widgets”. The implementation still refers to portlets, this is a UI change only. There are some behavioral changes that would make widgets more generally useful.
 
-The main reason for the renaming is that “portlet” is very “jargon”-y — your mom certainly does not know what a portlet is. To add insult to injury, the Plone portlets implementation isn’t really what the rest of the world is talking about when they are referring to portlets — they are usually talking about the [elephantine JSR-168 Java specification]1, so let’s eliminate that source of confusion once and for all. 1To be fair to Plone, the JSR spec was still in its infancy when this particular part of Plone was named.
+The main reason for the renaming is that “portlet” is very “jargon”-y — your mom certainly does not know what a portlet is. To add insult to injury, the Plone portlets implementation isn’t really what the rest of the world is talking about when they are referring to portlets — they are usually talking about the [elephantine JSR-168 Java specification], so let’s eliminate that source of confusion once and for all[^1].
 
 “Widget” is the term used by several web-based and desktop-based implementations of this concept, and people understand what they are at this point. “Gadgets” is another term that might be an alternative, but for the remainder of this proposal, I will use the term “widgets”.
 
@@ -73,7 +73,7 @@ On a related note, the intent is also to get rid of the notion of left and right
 
 *   Insert a Movie widget
 *   It allows you to `Upload`, `Search/Browse` an existing content object, or `Embed` from an external web site, potentially with some settings related to height/width, etc.
-*   For movies and audio, an add-on product suite like a stripped-down version of Plone4Artists could supply transcoding and metadata extraction for these types. Simple metadata extractors like EXIF (photo metadata) and ID3 (mp3 metadata) could be in the core, but we don’t really want to ship a full suite of video and audio converters by default.
+*   For movies and audio, an add-on product suite like a stripped-down version of Plone4Artists could supply transcoding and metadata extraction for these types. Simple metadata extractors like EXIF (photo metadata) and ID3 (MP3 metadata) could be in the core, but we don’t really want to ship a full suite of video and audio converters by default.
 *   Right-clicking a widget and/or possibly clicking an information icon brings up the widget settings.
 
 As you can see, this solves a lot of interesting use cases, and the potential new capabilities here can not be understated, it’s an incredibly flexible and powerful way of handling “opaque” content.
@@ -98,9 +98,16 @@ Some implementation specifics from Martin:
 
 With that out of the way, it’s time to move on to [Part 3: Composite Pages, Listings & Content Proxies].
 
+[^1]: To be fair to Plone, the JSR spec was still in its infancy when this particular part of Plone was named.
+
 [the introduction]: /simplifying-plone
 [part 1]: /plone-editing
 [Jarn]: http://www.jarn.com
 [Trolltech]: http://www.trolltech.com
 [elephantine JSR-168 Java specification]: http://jcp.org/aboutJava/communityprocess/review/jsr168/
 [Part 3: Composite Pages, Listings & Content Proxies]: /composite-pages
+
+*[EXIF]: Exchangeable image file format
+*[MP3]: MPEG 1 Layer 3
+*[ID3]: Metadata format used with MP3
+*[JSR]: Java Specification Requests
