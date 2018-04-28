@@ -69,8 +69,7 @@ On a related note, the intent is also to get rid of the notion of left and right
 
 ## Demonstration & Notes
 
-![Movie showing the new way to handle rich media]  
-(no sound, 5.5MB)
+<video src="/media/simplify-edit-ui.mov" title="Movie showing the new way to handle rich media" autoplay loop></video>
 
 *   Insert a Movie widget
 *   It allows you to `Upload`, `Search/Browse` an existing content object, or `Embed` from an external web site, potentially with some settings related to height/width, etc.
@@ -104,5 +103,4 @@ With that out of the way, it’s time to move on to [Part 3: Composite Pages, Li
 [Jarn]: http://www.jarn.com
 [Trolltech]: http://www.trolltech.com
 [elephantine JSR-168 Java specification]: http://jcp.org/aboutJava/communityprocess/review/jsr168/
-[Movie showing the new way to handle rich media]: /media/rich-media-edit.mov
 [Part 3: Composite Pages, Listings & Content Proxies]: /composite-pages

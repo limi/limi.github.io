@@ -19,7 +19,7 @@ Note that while I’m using the NuPlone theme in this demo, the approach works e
 
 ## Demo <abbr title="and">&amp;</abbr> Notes
 
-<video src="/media/simplify-edit-ui.mov" autoplay></video>
+<video src="/media/simplify-edit-ui.mov" title="Movie showing the new approach" autoplay loop></video>
 
 ***
 
@@ -68,5 +68,4 @@ In sum, these changes to the user interface make it less cluttered, more efficie
 Next, let's look at [better rich media handling in Plone].
 
 [the introduction]: /simplifying-plone
-[Movie showing the new approach]: /media/simplify-edit-ui.mov
 [better rich media handling in Plone]: /plone-rich-media
