@@ -42,6 +42,7 @@ plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-sitemap
 
 inc:
   title:        "&#x1D40B;&#x1D408;&#x1D40C;&#x1D408;"
