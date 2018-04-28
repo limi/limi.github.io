@@ -67,7 +67,7 @@ The main reason for the renaming is that “portlet” is very “jargon”-y �
 
 On a related note, the intent is also to get rid of the notion of left and right columns (as well as the general separation that forces you into a certain layout at the moment), but I’ll save that layout discussion for a later point. It’s covered superficially in the technical explanation at the end of this part, if you’re interested. The short version is that everything becomes a widget (the search box, the navigation, breadcrumbs, logo, etc).
 
-## Demonstration & Notes
+## Demonstration <abbr title="and">&amp;</abbr> Notes
 
 <video src="/media/simplify-edit-ui.mov" title="Movie showing the new way to handle rich media" autoplay loop></video>
 
