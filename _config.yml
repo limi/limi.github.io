@@ -1,10 +1,5 @@
-inc:
-  # Blog Information
-  title:        "&#x1D40B;&#x1D408;&#x1D40C;&#x1D408;"
-  subtitle:     ""
-  cover_image:  mountains.jpg
-  logo:         logo.png
-
+title:       "&#x1D40B;&#x1D408;&#x1D40C;&#x1D408;"
+description: "Alex Limi on Products, Design & Human Perception"
 url:         http://limi.net
 source:      .
 destination: ./_site
@@ -47,3 +42,8 @@ plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-feed
+
+inc:
+  title:        "&#x1D40B;&#x1D408;&#x1D40C;&#x1D408;"
+  cover_image:  mountains.jpg
+  logo:         logo.png
