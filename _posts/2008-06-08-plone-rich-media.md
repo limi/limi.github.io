@@ -21,7 +21,7 @@ To solve the problem, they invented something they called “snippets” — sma
 
 Where this gets interesting is when we combine it with a couple of other concepts, namely arbitrary attachments and portlets.
 
-## Infrastructure: Arbitrary attachments and layout
+## Infrastructure: Arbitrary attachments <abbr title="and">&amp;</abbr> layout
 
 Plone’s current notion of adding an Image object just to get an image into a page is a bit cumbersome. There are times when having a separate (i.e. end-user selectable) type for images makes sense, for instance in the “photo album” use case — but in the vast majority of cases, the user just wants to upload an image to use in a page.
 
