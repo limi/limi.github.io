@@ -66,7 +66,7 @@ To me, it makes sense that all objects are “folderish” — to use the Zope j
 [Let's summarize what we have outlined so far].
 
 [the introduction]: /simplifying-plone
-[part 1]: /plones-editing
+[part 1]: /plone-editing
 [part 2]: /plone-rich-media
 [pièce de résistance]: http://en.wikipedia.org/wiki/Pièce_de_résistance
 [plone.app.batch]: http://plone.org/products/plone-app-batch/

@@ -74,4 +74,4 @@ It’s time for a revolution, it’s time to make Plone’s user experience more
 [use our style sheet and layout]: http://en.wikipedia.org/skins-1.5/monobook/main.css
 [contacting me directly]: /contact
 [Plone Core Developer list]: http://www.nabble.com/Core-Developers-f6745.html
-[Part 1: Simplify the Editing Experience]: simplify-plones-editing-experience
+[Part 1: Simplify the Editing Experience]: plone-editing
