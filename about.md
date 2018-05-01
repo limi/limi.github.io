@@ -21,7 +21,7 @@ In 2006, he moved from Norway to San Francisco and worked with [Google] as an in
 
 In 2013, he joined [Highfive] as a founding team member <abbr title="and">&amp;</abbr> VP Product Design.
 
-Other places you might have encountered his work:
+**Other places you might have encountered his work:**
 
 *   He was the keynote speaker at the [Python Conference in 2006].
 *   The [Wikipedia] CSS is mostly his work, that’s why Wikipedia looks like the default Plone design — not the other way around.
