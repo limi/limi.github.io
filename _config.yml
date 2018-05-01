@@ -13,7 +13,7 @@ timezone:    nil
 future:      false
 show_drafts: nil
 limit_posts: 0
-highlighter: true
+highlighter: rouge
 
 permalink:     /:title
 paginate_path: 'page:num'
@@ -36,9 +36,8 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-feed

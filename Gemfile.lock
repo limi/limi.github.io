@@ -272,6 +272,7 @@ DEPENDENCIES
   maruku
   pygments.rb
   rake
+  rouge
   sass
   uglifier
 
