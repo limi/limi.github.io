@@ -1,4 +1,4 @@
-/* HSL 
+/* HSL
 $color1: hsla(37%, 82%, 61%, 1);
 $color2: hsla(352%, 60%, 55%, 1);
 $color3: hsla(188%, 100%, 27%, 1);
@@ -6,7 +6,7 @@ $color4: hsla(207%, 49%, 37%, 1);
 $color5: hsla(200%, 100%, 18%, 1);
 */
 
-/* RGB 
+/* RGB
 $color1: rgba(237, 174, 73, 1);
 $color2: rgba(209, 73, 91, 1);
 $color3: rgba(0, 121, 140, 1);
@@ -167,7 +167,7 @@ nav a.secondary {
 /* @group Data tables */
 
 article table {
-	border-spacing: 0; 
+	border-spacing: 0;
 }
 
 article table strong {
@@ -175,14 +175,14 @@ article table strong {
 	font-style: normal;
 }
 
-article table td, 
+article table td,
 article table th {
 	padding: 1em;
 	vertical-align: top;
 	text-align: center;
 }
 
-article table td.listingCheckbox, 
+article table td.listingCheckbox,
 article table th.listingCheckbox {
 	text-align: center;
 }
@@ -198,7 +198,7 @@ article table tbody th {
 article table tbody tr {
 	text-align:left;
 }
-article table tbody tr:nth-child(even) { 
+article table tbody tr:nth-child(even) {
 	background: #f9f9f9;
 }
 
@@ -347,7 +347,7 @@ h3 {
 	font-size: 1.5em;
 }
 h4 {
-	font-size: 1.25em; 
+	font-size: 1.25em;
 }
 h5 {
 	font-size: 1em;
@@ -361,12 +361,12 @@ h2, h3 {
 }
 
 .documentFirstHeading {
-    width:11em; 
+    width:11em;
     margin: auto;
 }
 
 /* h2 + p:first-line,
-h3 + p:first-line, 
+h3 + p:first-line,
 p.description + p:first-line,
 hr + p:first-line {
     text-transform: lowercase;
@@ -382,19 +382,19 @@ p span:first-child {
 
 p.description + p:first-letter,
 hr + p:first-letter {
-    font-size: 3.4em; 
+    font-size: 3.4em;
 
     line-height: 1;
-    margin-top: -0.01em; 
-/* One of the rare Firefox CSS bugs! Firefox is still applying the parent 
-   paragraph’s line-height to the first letter, ignoring its much-larger 
+    margin-top: -0.01em;
+/* One of the rare Firefox CSS bugs! Firefox is still applying the parent
+   paragraph’s line-height to the first letter, ignoring its much-larger
    font size, while the other browsers are correctly applying a line-height
    that corresponds with the letter’s font-size. */
 
-    float: left; 
-    display: block; 
-    margin-right: 0.03em; 
-    margin-left: -0.1em; 
+    float: left;
+    display: block;
+    margin-right: 0.03em;
+    margin-left: -0.1em;
     color: rgb(195,31,35);
     text-transform: uppercase;
 }
@@ -438,7 +438,7 @@ li {
 	margin: 0.25em 0;
 }
 
-dt { 
+dt {
 	/* font-style: italic; */
         font-variant: small-caps;
         margin-bottom: 0.25em;
@@ -446,7 +446,7 @@ dt {
         text-transform: lowercase;
 }
 
-dd { 
+dd {
 	margin: 0 0 0.25em 1em;
         display: list-item;
 }
@@ -461,13 +461,14 @@ em {
 	font-family: "Iowan Old Style", Baskerville, "Libre Baskerville", Georgia, serif;
 }
 
-i { 
-    font-variant: small-caps;
+i {
+  font-variant: small-caps;
 	font-style: normal;
+	text-transform: lowercase;
 }
 
 blockquote {
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
     padding: 1em;
     margin: 1em 0;
     font-size: 90%;
@@ -491,15 +492,15 @@ blockquote:before, blockquote:after
 	background: transparent;
 	transform: skew(-5deg) rotate(-5deg);
 	box-shadow: 0 0.6em 1em rgba(0, 0, 0, 0.3);
-    z-index: -1; 
-} 
+    z-index: -1;
+}
 
 blockquote:after
 {
 	left: auto;
 	right: 0.3em;
 	transform: skew(5deg) rotate(5deg);
-} 
+}
 
 /* End paper curl */
 
@@ -531,8 +532,8 @@ code {
         font-size: 90%;
 }
 
-hr { 
-    margin: 1em auto; 
+hr {
+    margin: 1em auto;
     clear: both;
 	font-size: 1.4em;
 	text-align: center;
@@ -544,8 +545,8 @@ hr::after {
   content: "\2042";
 }
 
-sup { 
-    font-size: 60%; 
+sup {
+    font-size: 60%;
 }
 
 abbr,
@@ -596,14 +597,14 @@ p.description {
     text-transform: lowercase;
     text-indent: 0;
 	letter-spacing: 0.1em;
-	
+
 }
 
-p.byline { 
-    color: #888; 
-    font-variant: small-caps; 
-    display: block; 
-    text-align: center; 
+p.byline {
+    color: #888;
+    font-variant: small-caps;
+    display: block;
+    text-align: center;
     letter-spacing:0.3em;
     text-transform: lowercase;
     clear:both;
@@ -635,15 +636,15 @@ p.byline {
 		text-align: left;
 		font-size: 120%;
 	}
-	
+
 	h1 {
 		font-size: 3em;
 	}
 
 	ul.listing {
-		font-size: 1.5em;	
+		font-size: 1.5em;
 	}
-	
+
 	ul.listing li {
 		height: 250px;
 	}
@@ -652,90 +653,90 @@ p.byline {
 		padding: 0;
 		margin: 1.5em 5%;
 	}
-	
+
 	article .container > footer {
 		padding: 2em 0;
 	}
-	
+
 	article .full, article pre {
 		margin: 1em 0;
 	}
-	
+
 	article pre {
 		padding: 1em;
 	}
-	
+
 	article blockquote {
 		margin: 1em 0;
 	}
-	
+
 	article blockquote p {
 		font-size: 1em;
 	}
-		
+
 	.blog-cover {
 		height: 200px;
 	}
-	
+
 	.blog-cover img {
 		height: 200px;
 		width: auto;
 	}
-	
+
 	.blog-cover section {
 		padding: 60px 0 0;
 		text-align: center;
 	}
-	
+
 	.blog-cover section a {
 		margin: 0.5em;
 	}
-	
+
 	.blog-cover h1 {
 		font-size: 1.5em;
 	}
-	
+
 	.blog-cover h3 {
 		font-size: 1em;
 	}
-	
+
 	.site-nav .tagline span {
 		display: none;
 	}
-	
+
 	.site-nav #navigation a {
 		display: none;
 	}
-	
+
 	.site-nav #navigation .brand {
 		display: inline-block;
 	}
-	
+
 	.site-footer {
 		margin-top: 0;
 		padding: 2em 10%;
 		text-align: center;
 	}
-	
+
 	.site-footer nav {
 		display: block;
 		float: none !important;
 		padding: 1em;
 	}
-	
+
 	.index {
 		padding: 0;
 		margin: 0 10%;
 	}
-	
+
 	.index > div {
 		margin: 0;
 	}
-	
+
 	.index img {
 		display: none;
 	}
-	
+
 	@media print {
 		* {
 			text-shadow: none !important;
@@ -743,40 +744,40 @@ p.byline {
 			background: transparent !important;
 			box-shadow: none !important;
 		}
-		
+
 		a, a:visited {
 			text-decoration: underline;
 		}
-		
+
 		a[href]:after {
 			content: " (" attr(href) ")";
 		}
-		
+
 		abbr[title]:after {
 			content: " (" attr(title) ")";
 		}
-		
+
 		.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
 			content: "";
 		}
-		
+
 		pre, blockquote {
 			border: 1px solid #999;
 			page-break-inside: avoid;
 		}
-		
+
 		thead {
 			display: table-header-group;
 		}
-		
+
 		tr, img {
 			page-break-inside: avoid;
 		}
-		
+
 		img {
 			max-width: 100% !important;
 		}
-		
+
 		  @page {
 		margin: 2cm .5cm;
 		}
@@ -784,34 +785,33 @@ p.byline {
 			orphans: 3;
 			widows: 3;
 		}
-		
+
 		h2, h3 {
 			page-break-after: avoid;
 		}
-		
+
 		.navbar {
 			display: none;
 		}
-		
+
 		.table td, .table th {
 			background-color: #fff !important;
 		}
-		
+
 		.btn > .caret, .dropup > .btn > .caret {
 			border-top-color: #000 !important;
 		}
-		
+
 		.label {
 			border: 1px solid #000;
 		}
-		
+
 		.table {
 			border-collapse: collapse !important;
 		}
-		
+
 		.table-bordered th, .table-bordered td {
 			border: 1px solid #ddd !important;
 		}
 	}
 } 	/* @end iPhone*/
-
