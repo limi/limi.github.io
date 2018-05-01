@@ -1,7 +1,9 @@
 ---
 layout: post
 
-redirect_from: "/checkboxes-that-kill/"
+redirect_from:
+  - "/checkboxes-that-kill/"
+  - "/checkboxes-kill"
 
 title: "Checkboxes that kill your product"
 subtitle: "A little historical baggage can be a dangerous thing when multiplied by a few hundred million individuals"
@@ -16,7 +18,7 @@ author:
   image: ks.png
 ---
 
-<span>If I told you</span> that a company is shipping a product to hundreds of millions of users right now, and included in the product are several prominent buttons that will break the product completely if you click them, and possibly lock you out from the Internet&#8202;&mdash;&#8202;can you guess which product it is? 
+<span>If I told you</span> that a company is shipping a product to hundreds of millions of users right now, and included in the product are several prominent buttons that will break the product completely if you click them, and possibly lock you out from the Internet&#8202;&mdash;&#8202;can you guess which product it is?
 
 Sounds like that’s the kind of product that only a large enterprise software company like Oracle or IBM would ship, right? Maybe some of the antivirus extortionware software for Windows? Maybe VPN software?
 
@@ -130,7 +132,7 @@ What about computers with very little disk space? Shouldn’t you be able to res
 
 <span>What have we</span> learned? There are a lot of options in our products that are used by very few people, and some of them can have *disastrous* effects. We’re trying to design software that can be used by everyone&#8202;&mdash;&#8202;that also means we have to keep them safe and not make it so easy to break a product they rely on every day. None of these are put there with malicious intent&#8202;&mdash;&#8202;some of them  even made sense at the time&#8202;&mdash;&#8202;but it’s time for us to do some scrubbing and cleaning of the Firefox settings.
 
-What about the product that *you* are building? Is it time to take a fresh look at what kind of options you include? 
+What about the product that *you* are building? Is it time to take a fresh look at what kind of options you include?
 
 <small>Thanks to Frank Yan, Blake Winton, Tony Santos, Monica Chew, Sid Stamm <abbr title="and">&amp;</abbr> Madhava Enros for reading drafts of this.</small>
 
