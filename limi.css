@@ -412,7 +412,7 @@ p {
 	line-height: 1.5em;
 	text-indent: 1em;
 	margin: 0.25em 0;
-	text-align: justify;
+	text-align: left;
         /* -moz-hyphens: auto; */
 }
 
@@ -425,7 +425,7 @@ ul, ol, dl {
     font-size: 1.1em;
     line-height: 1.5em;
 	margin: 0.5em 0;
-	text-align: justify;
+	text-align: left;
 }
 
 ul ul,
