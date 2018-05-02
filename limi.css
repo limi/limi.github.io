@@ -632,7 +632,7 @@ p.byline {
 		font-size: 1.2em;
 		padding: 0 1em 0.5em 1em;
 	}
-	p {
+	p, ul, ol {
 		text-align: left;
 		font-size: 120%;
 	}
