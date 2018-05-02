@@ -237,7 +237,7 @@ Looking forward to hear your thoughts on this, and we hope this document can hel
 PS: I will update this post with links to bug numbers in the Bugzilla issue tracker once we have decided how the individual issues should be filed, and with a meta-bug that you can subscribe to if you’re interested in them all. I will post a short notice on this site when it’s ready.
 
 [Blaise Pascal]: http://en.wikiquote.org/wiki/Blaise_Pascal
-[According to the Test Pilot studies]: http://mozillalabs.com/testpilot/2010/03/17/popular-menu-buttons/
+[According to the Test Pilot studies]: https://web.archive.org/web/20111230042953/http://www.mozillalabs.com/testpilot/2010/03/17/popular-menu-buttons/
 [an extension]: http://blog.mozilla.com/dolske/2007/10/21/whatever/
 [a somewhat related bug for this]: https://bugzilla.mozilla.org/show_bug.cgi?id=232030
 [Mozilla’s dev.usability forum]: http://groups.google.com/group/mozilla.dev.usability/
