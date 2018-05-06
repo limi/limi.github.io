@@ -382,7 +382,7 @@ p span:first-child {
 
 p.description + p:first-letter,
 hr + p:first-letter {
-    font-size: 3.4em;
+    font-size: 3.0em;
 
     line-height: 1;
     margin-top: -0.01em;
