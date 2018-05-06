@@ -263,14 +263,9 @@ article {
 	font-size: 18px;
 }
 
-article a:link {
-	color: rgb(195,31,35);
-	text-decoration: none;
-	border-bottom: 1px solid #ddd;
-}
-
+article a:link,
 article a:visited {
-	color: #888;
+	color: rgb(195,31,35);
 	text-decoration: none;
 	border-bottom: 1px solid #ddd;
 }
