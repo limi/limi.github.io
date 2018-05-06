@@ -3,7 +3,7 @@ layout: post
 
 redirect_from:
   - "/articles/18-things-i-wish-were-true-about-plone"
-  - "/articles/18-things-i-wish-were-true-about-plone/index.html"
+  - "/articles/18-things-i-wish-were-true-about-plone/"
 
 title: "18 Things I Wish Were True About Plone"
 subtitle: "What should Plone improve?"
