@@ -41,11 +41,11 @@ Of course, we should start in our own backyard, so here are some obvious example
 ## Load images automatically
 
 From the Content panel in our settings, try unchecking the box:
-![Content Panel](http://i.imgur.com/Xxo6hmw.png)
+![Content Panel](https://i.imgur.com/Xxo6hmw.png)
 
 Here’s how Google’s front page looks like if you uncheck that box:
 
-![Google](http://i.imgur.com/3aLJmS2.png")
+![Google](https://i.imgur.com/3aLJmS2.png")
 
 That’s right, you can’t even see the text box you’re supposed to type your search into. Congratulations, we just broke the Internet.
 
@@ -56,11 +56,11 @@ Of course, there are legitimate uses for this, from low-bandwidth situations to 
 
 More fun from our Content panel, you can turn off JavaScript with a simple click:
 
-![Turn off JavaScript](http://i.imgur.com/Xxo6hmw.png)
+![Turn off JavaScript](https://i.imgur.com/Xxo6hmw.png)
 
 Try booking a travel on Hipmunk without JavaScript:
 
-![](http://i.imgur.com/c6OOjp7.png)
+![](https://i.imgur.com/c6OOjp7.png)
 
 Most sites these days that aren’t just displaying content will fail in interesting <abbr title="and">&amp;</abbr> mysterious ways if you don’t have JavaScript enabled. For the general population, Firefox will appear broken.
 
@@ -73,22 +73,22 @@ And yes, I know that some people have reasons (privacy, web development) to turn
 
 Firefox is very customizable! In fact, it’s so customizable that we allow you to make the browser unusable with a single click. Try turning off the Navigation Toolbar, for instance:
 
-![Navigation Toolbar in Menu](http://i.imgur.com/W2QOeWQ.png)
+![Navigation Toolbar in Menu](https://i.imgur.com/W2QOeWQ.png)
 
 Good luck trying to find a web site that can help you fix this problem when your son was clicking around the menus in Firefox yesterday, and today your browser has no buttons:
 
-![Browser with no buttons](http://i.imgur.com/0JmJ60q.png)
+![Browser with no buttons](https://i.imgur.com/0JmJ60q.png)
 
 
 ## Turning off SSL <abbr title="and">&amp;</abbr> TLS
 
 Now we’re getting to the “shooting fish in a barrel” category&#8202;&mdash;&#8202;there are many fun options in this preference panel:
 
-![Preference Panel](http://i.imgur.com/Q1SRzmH.png)
+![Preference Panel](https://i.imgur.com/Q1SRzmH.png)
 
 If you turn off SSL or TLS, Gmail, Google Reader, and other Google services will look like this:
 
-![Error Message](http://i.imgur.com/FjDK3dn.png)
+![Error Message](https://i.imgur.com/FjDK3dn.png)
 
 Note that we don’t even tell you that you can turn it back on in the settings. We just tell you that it has been disabled, and that you should “contact the website owners to inform them of this problem.”
 
@@ -99,7 +99,7 @@ Good luck trying to do that when you can’t even see the web site or load your 
 
 Oh boy, where do we start?
 
-![Certificate Manager](http://i.imgur.com/YxVQID7.png)
+![Certificate Manager](https://i.imgur.com/YxVQID7.png)
 
 Personally, I feel pretty confident that the number of people that know how any of this works can be narrowed down to the people that work in these companies in the list. At least not too far off.
 
@@ -107,11 +107,11 @@ This entire thing&#8202;&mdash;&#8202;possibly with the exception of the persona
 
 You probably don’t want your bank to look like this because two days ago, you read an article on the Internet&#8202;&mdash;&#8202;authored by who-knows&#8202;&mdash;&#8202;telling you to remove an entry in your certificates “for added safety”:
 
-![Bank Site Error](http://i.imgur.com/Zn3auty.png)
+![Bank Site Error](https://i.imgur.com/Zn3auty.png)
 
 Also, is that an NSS Internal PKCS #11 module in your pocket, or are you just happy to see me? Do I need to enable my FIPS?
 
-![NSS](http://i.imgur.com/eLDED0a.png)
+![NSS](https://i.imgur.com/eLDED0a.png)
 
 As Privacy Engineer Monica Chew at Mozilla asks, “[Is it really worth having a preference panel that benefits fewer than 2% of users overall?]”&#8202;&mdash;&#8202;obvious spoiler alert: The answer is no.
 
@@ -124,7 +124,7 @@ The people that need to do these things should use add-ons, or at the very least
 
 Another way to slow down the browser and make Firefox look bad is to give it no disk space to use for caching:
 
-![Cache Management](http://i.imgur.com/91N6zzP.png)
+![Cache Management](https://i.imgur.com/91N6zzP.png)
 
 What about computers with very little disk space? Shouldn’t you be able to restrict how much disk space is being used? It turns out, we know that you are low on disk space, and will reduce our usage accordingly. It’s pretty likely that Firefox keeps better track of this than humans do. So let’s make computers do what they’re good at: keeping track of numbers.
 
@@ -137,8 +137,8 @@ What about the product that *you* are building? Is it time to take a fresh look 
 <small>Thanks to Frank Yan, Blake Winton, Tony Santos, Monica Chew, Sid Stamm <abbr title="and">&amp;</abbr> Madhava Enros for reading drafts of this.</small>
 
 [excellent add-ons ecosystem]: https://addons.mozilla.org
-[Is it really worth having a preference panel that benefits fewer than 2% of users overall?]: http://monica-at-mozilla.blogspot.com/2013/02/writing-for-98.html
-[we have met the enemy, and he is us]: http://en.wikipedia.org/wiki/Pogo_%28comic_strip%29#.22We_have_met_the_enemy_and_he_is_us..22 "Quote from Pogo, the comic strip"
+[Is it really worth having a preference panel that benefits fewer than 2% of users overall?]: https://monica-at-mozilla.blogspot.com/2013/02/writing-for-98.html
+[we have met the enemy, and he is us]: https://en.wikipedia.org/wiki/Pogo_%28comic_strip%29#.22We_have_met_the_enemy_and_he_is_us..22 "Quote from Pogo, the comic strip"
 
 *[AMO]: addons.mozilla.org
 *[CDNs]: Content Delivery Networks
