@@ -1,6 +1,8 @@
 ---
 layout: post
 
+redirect_from: "/about/index.html"
+
 title: "Biography"
 subtitle: ""
 cover_image: mountains.jpg
