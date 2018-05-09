@@ -6,6 +6,8 @@
     <link type="text/css" rel="stylesheet" href="/limi.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
     <link rel="apple-touch-icon" href="/images/{{ site.inc.logo }}"/>
+    <link rel="openid.server" href="http://www.myopenid.com/server"/>
+    <link rel="openid.delegate" href="http://limi.myopenid.com/"/>
     <link href="{{ site_url }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ site.inc.title }}" />
     <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
@@ -14,15 +16,15 @@
     {% if page.cover_image %}
     <meta property="og:image" content="{{ site.url }}/images/{{ page.cover_image }}"/>
     {% if page.main_image %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>  
+    <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>
     {% endif %}
-    <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>   
+    <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>
     {% endif %}
     {% if page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt }}"/>
     <meta name="description" content="{{ page.excerpt }}"/>
     {% endif %}
-    <meta property="og:site_name" content="{{ site.inc.title }}">     
+    <meta property="og:site_name" content="{{ site.inc.title }}">
 </head>
 <body>
 
