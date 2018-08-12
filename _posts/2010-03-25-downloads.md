@@ -11,7 +11,7 @@ excerpt: "Saving the world,<br> one file at a time"
 
 ---
 
-<span>The confusing <abbr title="and">&amp;</abbr> inconsistent</span> state of downloading files using a web browser has long been a pet peeve of mine. The current situation is pretty much a mess in every web browser. Issues with file systems in general notwithstanding, even doing simple downloads to a centrally defined folder can be confusing, even frustrating.
+The confusing <abbr title="and">&amp;</abbr> inconsistent state of downloading files using a web browser has long been a pet peeve of mine. The current situation is pretty much a mess in every web browser. Issues with file systems in general notwithstanding, even doing simple downloads to a centrally defined folder can be confusing, even frustrating.
 
 ![](/media/sketch-downloads-wide.png "Sketch by Stephen Horlander")
 

@@ -13,7 +13,7 @@ next major releases"
 
 ---
 
-<span>The [Strategic Planning Summit]</span> at the Googleplex in February 2008 challenged us to focus on “approachability” as a major design goal; a way to make sure integrators who try to put together a project using Plone will have a good first experience. I won’t go into that in great detail, but I believe Martin Aspeli’s article [Pete and Andy try Plone 4] serves as a great primer for the kind of experience we’re reaching towards for our Integrator audience. If you haven't read it yet, please do.
+The [Strategic Planning Summit] at the Googleplex in February 2008 challenged us to focus on “approachability” as a major design goal; a way to make sure integrators who try to put together a project using Plone will have a good first experience. I won’t go into that in great detail, but I believe Martin Aspeli’s article [Pete and Andy try Plone 4] serves as a great primer for the kind of experience we’re reaching towards for our Integrator audience. If you haven't read it yet, please do.
 
 But what about the people that will use those Plone deployments as their intranet, web site or collaboration space in the years to come? Don’t they deserve just as great an experience the first time they are introduced to Plone? Shouldn’t they be able to master the basics of Plone in about half an hour of tinkering, and be able to self-graduate to higher understanding of the system when they see the need for it?
 

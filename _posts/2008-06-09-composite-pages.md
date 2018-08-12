@@ -11,7 +11,7 @@ excerpt: "Part 3:  Making it easy to do advanced page layout tasks in Plone"
 
 ---
 
-<span>If you haven’t</span> read [the introduction], [part 1] and [part 2] yet, please make sure you do so before continuing. Thanks!
+If you haven’t read [the introduction], [part 1] and [part 2] yet, please make sure you do so before continuing. Thanks!
 
 …and now for the [pièce de résistance]:
 

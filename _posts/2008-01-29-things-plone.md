@@ -24,7 +24,7 @@ This list is merely a brain dump meant to inspire and provoke discussion in the 
 
 With that out of the way, get a cup of your favorite beverage, and let’s move on to the list! These are in no particular order, but I numbered them to make it easier to keep track of how far along you are in the document.
 
-* * *
+***
 
 ## #1: Simple development should be possible entirely through the web&nbsp;interface
 

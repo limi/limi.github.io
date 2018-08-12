@@ -10,7 +10,7 @@ cover_image: mountains.jpg
 excerpt: "Update on paper cut bugs for Firefox 4"
 
 ---
-<span>A while back</span>, I gave a presentation here at Mozilla based on feedback from a question thread posted to the Reddit web site: “[I work on the Firefox User Experience team, and this is your chance to tell me about your pet peeves].”
+A while back, I gave a presentation here at Mozilla based on feedback from a question thread posted to the Reddit web site: “[I work on the Firefox User Experience team, and this is your chance to tell me about your pet peeves].”
 
 We got over 2 000 — yeah, that’s *two thousand* — replies, and spent some time analyzing and grouping the feedback into actionable bug reports and general focus areas, which was then presented to the Mozilla team and worldwide community in a talk here in Mountain View & broadcast on [Air Mozilla].
 
@@ -56,7 +56,7 @@ This week’s selection of paper cuts that we are currently looking for help in 
 
 If none of these issues tickled your fancy, take a look at the [full list of paper cut bugs] (tree view) — and pick something to fix!
 
-* * *
+***
 
 ## Overview of paper&nbsp;cuts
 

@@ -25,7 +25,7 @@ Sounds like that’s the kind of product that only a large enterprise software c
 Well, [we have met the enemy, and he is us].
 In the currently shipping version, Firefox ships with many options that will render the browser unusable to most people, right in the main settings UI.
 
-* * *
+***
 
 How did we get to this point with Firefox? Most of these options exist for historical reasons&#8202;&mdash;&#8202;whenever there’s a new feature, it often gets a checkbox to turn it off. The other common case is when a feature isn’t obviously useful to everyone, and it’s hard to make an obvious choice about whether to have it enabled by default or not&#8202;&mdash;&#8202;so we build in a switch. Or sometimes the person implementing it thinks it should have a switch, and nobody stops to ask if it’s a good idea.
 
@@ -128,7 +128,7 @@ Another way to slow down the browser and make Firefox look bad is to give it no 
 
 What about computers with very little disk space? Shouldn’t you be able to restrict how much disk space is being used? It turns out, we know that you are low on disk space, and will reduce our usage accordingly. It’s pretty likely that Firefox keeps better track of this than humans do. So let’s make computers do what they’re good at: keeping track of numbers.
 
-* * *
+***
 
 What have we learned? There are a lot of options in our products that are used by very few people, and some of them can have *disastrous* effects. We’re trying to design software that can be used by everyone&#8202;&mdash;&#8202;that also means we have to keep them safe and not make it so easy to break a product they rely on every day. None of these are put there with malicious intent&#8202;&mdash;&#8202;some of them  even made sense at the time&#8202;&mdash;&#8202;but it’s time for us to do some scrubbing and cleaning of the Firefox settings.
 

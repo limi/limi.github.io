@@ -11,7 +11,7 @@ excerpt: "Part 2: Making it easy to work with audio, video and other opaque cont
 
 ---
 
-<span>If you haven’t</span> read [the introduction] and [part 1] yet, please make sure you do so before continuing. Thanks!
+If you haven’t read [the introduction] and [part 1] yet, please make sure you do so before continuing. Thanks!
 
 ## A little bit of history
 
