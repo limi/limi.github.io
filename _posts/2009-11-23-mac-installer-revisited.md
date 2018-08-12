@@ -4,10 +4,10 @@ layout: post
 redirect_from: "/articles/firefox-mac-installation-experience-revisited/"
 
 title: "Firefox Mac installation experience, revisited"
-subtitle: "A second look at the issues with installation of firefox on the mac, with recommendations on how to fix them."
+subtitle: "A second look at the issues with installation of firefox on the mac, with recommendations on how to fix them"
 cover_image: mountains.jpg
 
-excerpt: "A second look at the issues with installation of firefox on the mac, with recommendations on how to fix them."
+excerpt: "A second look at the issues with installation of firefox on the mac, with recommendations on how to fix them"
 
 ---
 

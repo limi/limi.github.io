@@ -4,10 +4,10 @@ layout: post
 redirect_from: "/articles/improve-plones-handling-of-rich-media"
 
 title: "Improve Plone’s Handling of Rich Media"
-subtitle: "Part 2: Making it easy to work with audio, video and other opaque content in the editing interface."
+subtitle: "Part 2: Making it easy to work with audio, video and other opaque content in the editing interface"
 cover_image: mountains.jpg
 
-excerpt: "Part 2: Making it easy to work with audio, video and other opaque content in the editing interface."
+excerpt: "Part 2: Making it easy to work with audio, video and other opaque content in the editing interface"
 
 ---
 

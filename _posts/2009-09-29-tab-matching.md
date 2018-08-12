@@ -4,10 +4,10 @@ layout: post
 redirect_from: "/articles/tab-matching-in-the-location-bar/"
 
 title: "Tab matching in the Location Bar"
-subtitle: "In Firefox 3.7, we want to bring tab matching to the location bar."
+subtitle: "In Firefox 3.7, we want to bring tab matching to the location bar"
 cover_image: mountains.jpg
 
-excerpt: "In Firefox 3.7, we want to bring tab matching to the location bar."
+excerpt: "In Firefox 3.7, we want to bring tab matching to the location bar"
 
 ---
 One of the minor tweaks that we want in Firefox is the ability to switch tabs using the location bar. Yours truly has signed up to help shepherd this into the 3.7 release on the UI side.
