@@ -11,7 +11,7 @@ excerpt: "Saving the world,<br> one file at a time"
 
 ---
 
-The confusing <abbr title="and">&amp;</abbr> inconsistent state of downloading files using a web browser has long been a pet peeve of mine. The current situation is pretty much a mess in every web browser. Issues with file systems in general notwithstanding, even doing simple downloads to a centrally defined folder can be confusing, even frustrating.
+The confusing & inconsistent state of downloading files using a web browser has long been a pet peeve of mine. The current situation is pretty much a mess in every web browser. Issues with file systems in general notwithstanding, even doing simple downloads to a centrally defined folder can be confusing, even frustrating.
 
 ![](/media/sketch-downloads-wide.png "Sketch by Stephen Horlander")
 
@@ -228,7 +228,7 @@ In general, we want to do the right thing when you download files — but there 
 
 There are likely to be edge cases that we don’t know about, but we should be able to find a compromise between usability and security — and err on the side of security when it isn’t possible to detect what the obvious thing to do is.
 
-## Next steps <abbr title="and">&amp;</abbr> feedback
+## Next steps & feedback
 
 Of course, we want to hear your ideas. Any obvious things that could be improved, any interesting approaches in other browsers or applications? The preferred approach is to put something on your blog (as long as you mention my name on the blog and link to this post, I’ll discover it), or you can give feedback in [Mozilla’s dev.usability forum].
 

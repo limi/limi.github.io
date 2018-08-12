@@ -21,7 +21,7 @@ To solve the problem, they invented something they called “snippets” — sma
 
 Where this gets interesting is when we combine it with a couple of other concepts, namely arbitrary attachments and portlets.
 
-## Infrastructure: Arbitrary attachments <abbr title="and">&amp;</abbr> layout
+## Infrastructure: Arbitrary attachments & layout
 
 Plone’s current notion of adding an Image object just to get an image into a page is a bit cumbersome. There are times when having a separate (i.e. end-user selectable) type for images makes sense, for instance in the “photo album” use case — but in the vast majority of cases, the user just wants to upload an image to use in a page.
 
@@ -67,7 +67,7 @@ The main reason for the renaming is that “portlet” is very “jargon”-y �
 
 On a related note, the intent is also to get rid of the notion of left and right columns (as well as the general separation that forces you into a certain layout at the moment), but I’ll save that layout discussion for a later point. It’s covered superficially in the technical explanation at the end of this part, if you’re interested. The short version is that everything becomes a widget (the search box, the navigation, breadcrumbs, logo, etc).
 
-## Demonstration <abbr title="and">&amp;</abbr> Notes
+## Demonstration & Notes
 
 <video src="/media/simplify-edit-ui.mov" title="Movie showing the new way to handle rich media" autoplay loop></video>
 

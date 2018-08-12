@@ -17,7 +17,7 @@ I have built a clickable prototype of the new UI, since the best way to show you
 
 Note that while I’m using the NuPlone theme in this demo, the approach works equally well with any theme — this is about functionality, not looks.
 
-## Demo <abbr title="and">&amp;</abbr> Notes
+## Demo & Notes
 
 <video src="/media/simplify-edit-ui.mov" title="Movie showing the new approach" autoplay loop></video>
 
