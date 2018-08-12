@@ -6,8 +6,8 @@ layout: base
 <section>
     <header>
         <nav style="background-image: url(/images/{{ page.cover_image }})">
-            <a class="secondary" href="/articles">Writing</a> 
-            <a href="/">LIMI</a> 
+            <a class="secondary" href="/articles">Writing</a>
+            <a href="/">LIMI</a>
             <a class="secondary" href="/contact">Contact</a>
         </nav>
     </header>
@@ -20,10 +20,10 @@ layout: base
         <header>
             {% if page.date %}
             <p class="byline">
-                <time pubdate datetime="{{ page.date | date: "%Y-%m-%d" }}" 
+                <time pubdate datetime="{{ page.date | date: "%Y-%m-%d" }}"
                       title="{{ page.date | date: "%Y-%m-%d" }}">
                     {% assign d = page.date | date: "%-d"  %}
-                    {{ page.date | date: "%B" }} 
+                    {{ page.date | date: "%B" }}
                     {% case d %}
                       {% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
                     {{ page.date | date: "%Y" }}
@@ -42,12 +42,12 @@ layout: base
 
         <footer>
             <address>
-            <p><a href="https://twitter.com/limi">Alex Limi</a> is currently 
-                <abbr title="Vice President">VP</abbr> Design at 
-                <a target="_blank" href="https://highfive.com/">Highfive</a>, 
-                a company that is simplifying business collaboration. 
-                Previously, he led <a href="https://www.firefox.com/">Firefox</a> 
-                <abbr title="User Experience">UX</abbr> 
+            <p><a href="https://twitter.com/limi">Alex Limi</a> is currently
+                <abbr title="Vice President">VP</abbr> Design at
+                <a target="_blank" href="https://highfive.com/">Highfive</a>,
+                a company that is simplifying business collaboration.
+                Previously, he led <a href="https://www.firefox.com/">Firefox</a>
+                <abbr title="User Experience">UX</abbr>
                 <abbr title="and">&amp;</abbr> Product Design at <a target="_blank" href="https://www.mozilla.com/">Mozilla</a>,
                 designed at <a target="_blank" href="https://www.google.com/">Google</a>
                 <abbr title="and">&amp;</abbr> is the co-founder of the open source project
@@ -59,3 +59,33 @@ layout: base
 
     </div>
 </article>
+
+<script>
+/* wrap first three non-filler words in a span */
+[].forEach.call(document.querySelectorAll('header + section > p:first-child, header + section > hr + p'), function(p) {
+  var first = p.firstChild, matches;
+  /* regex to match first three non-filler words lol */
+  if (first instanceof Text &&
+      (matches = first.nodeValue.match(/^\S+(?:\s(?:the|a|an|I))?\s\S+(?:\s(?:the|a|an|I))?\s\S+/))) {
+    var match = matches[0];
+    if (!match) return;
+    first.nodeValue = first.nodeValue.slice(match.length);
+    var span = document.createElement('span');
+    span.textContent = match;
+    p.insertBefore(span, first);
+  }
+});
+
+/* insert non-breaking space between last two words in a headline/description */
+[].forEach.call(document.querySelectorAll('h1, h2, .description'), function(h) {
+  var last = h.lastChild, matches;
+  /* regex to match last two words lol */
+  if (last instanceof Text &&
+      !last.nodeValue.match(/^\S+\s\S+\s\S+$/) &&
+      (matches = last.nodeValue.match(/\S+ \S+$/))) {
+    var match = matches[0];
+    if (!match) return;
+    last.nodeValue = last.nodeValue.slice(0, -match.length) + match.replace(' ', '\u00A0');
+  }
+});
+</script>

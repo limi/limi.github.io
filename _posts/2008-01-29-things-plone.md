@@ -13,7 +13,7 @@ excerpt: "What should Plone improve?"
 
 ---
 
-<span>Let me preface</span> this with the obvious disclaimers for the readers that aren’t intimately familiar with the Plone community and culture:
+Let me preface this with the obvious disclaimers for the readers that aren’t intimately familiar with the Plone community and culture:
 
 *   This is my personal list, and doesn’t necessarily reflect what the Plone Community wants to do.
 *   Even though I work at Google, there’s nothing here that constitutes knowledge of any secrets about future products. Any mention of Google here is as an outsider looking in, as I don’t work in the below mentioned focus areas — and have no insights into what they are up to next.

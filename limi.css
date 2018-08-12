@@ -42,6 +42,18 @@ $color5: rgba(0, 61, 91, 1);
 }
 /* @end */
 
+@font-face {
+  font-family: 'Iowan Old Style';
+  src: local('Iowan Old Style');
+}
+
+/* replace ampersands with pretty italic Baskerville */
+@font-face {
+  font-family: 'Iowan Old Style';
+  src: local('Baskerville-Italic'), local('Iowan Old Style');
+  unicode-range: U+0026;
+}
+
 /* @group Basics */
 
 body {
@@ -207,11 +219,10 @@ article table tbody tr:nth-child(even) {
 /* @group Listings */
 ul.listing {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: calc(50% - 1px) calc(50% - 1px);
 	grid-column-gap: 2px;
 	grid-row-gap: 2px;
 	list-style: none;
-	margin: none;
 	font-size: 2em;
 	margin: 2px 0;
 	padding: 0;
@@ -370,17 +381,22 @@ hr + p:first-line {
 */
 
 /* First words are transformed to small-caps if they are marked with a span immediately inside a p */
-p span:first-child {
+p > span:first-child {
     text-transform: lowercase;
     font-variant: small-caps;
 }
 
-p.description + p:first-letter,
-hr + p:first-letter {
-    font-size: 3.0em;
+header + section > p:first-child,
+header + section > hr + p {
+	text-indent: -0.2em; /* change this to adjust both drop-cap and first-line simultaneously */
+}
 
+header + section > p:first-child::first-letter,
+header + section > hr + p::first-letter {
+    font-size: 3.0em;
     line-height: 1;
     margin-top: -0.01em;
+		margin-bottom: -0.02em;
 /* One of the rare Firefox CSS bugs! Firefox is still applying the parent
    paragraph’s line-height to the first letter, ignoring its much-larger
    font size, while the other browsers are correctly applying a line-height
@@ -388,9 +404,10 @@ hr + p:first-letter {
 
     float: left;
     display: block;
-    margin-right: 0.03em;
-    margin-left: -0.1em;
+    margin-right: 0.07em;
+    margin-left: 0; /* change this to adjust drop-cap */
     color: rgb(195,31,35);
+		font-variant: normal;
     text-transform: uppercase;
 }
 
