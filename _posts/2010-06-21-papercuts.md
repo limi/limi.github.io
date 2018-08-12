@@ -33,7 +33,7 @@ Of the 7 focus areas identified in the presentation, we chose to focus on two ar
 
 This doesn’t mean that the other bugs are any less important — but we obviously have to pick our battles to get stuff done. Don’t let this discourage you from handling bugs in the other focus areas, though!
 
-## Our current Paper Cut&nbsp;Heroes
+## Our current Paper Cut Heroes
 
 Several of the bugs have seen significant activity over the past month, and I’ll try to call out progress and general awesomeness over the coming weeks. Currently, excellent work is being done on:
 
@@ -58,7 +58,7 @@ If none of these issues tickled your fancy, take a look at the [full list of pap
 
 ***
 
-## Overview of paper&nbsp;cuts
+## Overview of paper cuts
 
 Here’s a quick overview of the focus areas we are trying to fix, along with links to the bugs that collect these in focus areas:
 

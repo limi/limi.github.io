@@ -128,7 +128,7 @@ Does quite a few things right (as usual), but have some weird defaults that mar 
 
 Opera shares most of the same issues as most of the other browsers (asks every time it downloads, opening with non-sensical applications like DiskImageMounter, etc), but overall it is standard fare. One thing to note is the amount of Power User functionality included in the main UI, with things like the “Quick Download” field that will download whatever URL you paste into it directly, its support for downloading all the resources linked from a page, etc. The quick download field is also curiously positioned in exactly the same location as you would expect to find a search/filter bar, and people do try to use it as such — with predictably bad results.
 
-## Suggested improvements to the download handling in&nbsp;Firefox
+## Suggested improvements to the download handling in Firefox
 
 Informed by what other browsers do for downloads, it’s clear that Firefox already does a good job in comparison — but it can also be made a lot better without an ovwerwhelming amount of work. The infrastructure is solid, we have the necessary functionality for most of this already — but the user experience of how it all fits together can be significantly improved.
 
