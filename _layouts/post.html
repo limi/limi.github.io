@@ -77,15 +77,17 @@ layout: base
 });
 
 /* insert non-breaking space between last two words in a headline/description */
-[].forEach.call(document.querySelectorAll('h1, h2, .description'), function(h) {
-  var last = h.lastChild, matches;
-  /* regex to match last two words lol */
-  if (last instanceof Text &&
-      !last.nodeValue.match(/^\S+\s\S+\s\S+$/) &&
-      (matches = last.nodeValue.match(/\S+ \S+$/))) {
-    var match = matches[0];
-    if (!match) return;
-    last.nodeValue = last.nodeValue.slice(0, -match.length) + match.replace(' ', '\u00A0');
-  }
-});
+if (innerWidth > 720) {
+  [].forEach.call(document.querySelectorAll('h1, h2, .description'), function(h) {
+    var last = h.lastChild, matches;
+    /* regex to match last two words lol */
+    if (last instanceof Text &&
+        !last.nodeValue.match(/^\S+\s\S+(?:\s\S+)?$/) &&
+        (matches = last.nodeValue.match(/\S+ \S+$/))) {
+      var match = matches[0];
+      if (!match) return;
+      last.nodeValue = last.nodeValue.slice(0, -match.length) + match.replace(' ', '\u00A0');
+    }
+  });
+}
 </script>
