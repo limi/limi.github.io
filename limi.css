@@ -226,14 +226,33 @@ ul.listing {
 	font-size: 2em;
 	margin: 2px 0;
 	padding: 0;
+	text-align: center;
 }
 
 ul.listing li {
-	background-color: #333;
 	margin: 0;
+}
+
+ul.listing li a {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	background-color: #333;
 	padding: 15%;
 	height: 100px;
-	text-align: center;
+}
+
+/* Smaller displays only get one column */
+@media (max-width: 720px) {
+	ul.listing {
+		grid-template-columns: auto;
+	}
+	ul.listing li {
+		margin: 0;
+	}
+	ul.listing li a {
+		height: 75px;
+	}
 }
 
 /*
@@ -244,19 +263,19 @@ ul.listing li {
 5: rgba(0, 61, 91, 1);
 */
 
-ul.listing li:nth-child(1n) {
+ul.listing li:nth-child(1n) a {
 	background-color: rgba(237, 174, 73, 1);
 }
-ul.listing li:nth-child(2n) {
+ul.listing li:nth-child(2n) a {
 	background-color: rgba(209, 73, 91, 1);
 }
-ul.listing li:nth-child(3n) {
+ul.listing li:nth-child(3n) a {
 	background-color: rgba(0, 121, 140, 1);
 }
-ul.listing li:nth-child(4n) {
+ul.listing li:nth-child(4n) a {
 	background-color: rgba(48, 99, 142, 1);
 }
-ul.listing li:nth-child(5n) {
+ul.listing li:nth-child(5n) a {
 	background-color: rgba(0, 61, 91, 1);
 }
 
@@ -663,10 +682,6 @@ p.byline {
 
 	ul.listing {
 		font-size: 1.5em;
-	}
-
-	ul.listing li {
-		height: 250px;
 	}
 
 	article .container > header, article .container > section, article .container > footer {

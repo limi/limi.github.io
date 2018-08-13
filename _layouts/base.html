@@ -36,5 +36,38 @@
          <!--“No amount of genius can overcome a preoccupation with detail.” —Marion Levy-->
 </footer>
 
+<script>
+/* wrap first three non-filler words in a span */
+[].forEach.call(document.querySelectorAll('header + section > p:first-child, header + section > hr + p'), function(p) {
+  var first = p.firstChild, matches;
+  /* regex to match first three non-filler words, lol */
+  if (first instanceof Text &&
+      (matches = first.nodeValue.match(/^\S+(?:\s(?:the|a|an|I))?\s\S+(?:\s(?:the|a|an|I))?\s\S+/))) {
+    var match = matches[0];
+    if (!match) return;
+    first.nodeValue = first.nodeValue.slice(match.length);
+    var span = document.createElement('span');
+    span.textContent = match;
+    p.insertBefore(span, first);
+  }
+});
+
+var selector = '.description';
+/* kids, don't write code like this */
+if (innerWidth > 720) selector += ', h1, h2';
+[].forEach.call(document.querySelectorAll(selector), function(h) {
+  var last = h.lastChild, matches;
+  /* regex to match last two words if there are four or more words, lol */
+  if (last instanceof Text &&
+      !last.nodeValue.match(/^\S+\s\S+(?:\s\S+)?$/) &&
+      (matches = last.nodeValue.match(/\S+ \S+$/))) {
+    var match = matches[0];
+    if (!match) return;
+    last.nodeValue = last.nodeValue.slice(0, -match.length) + match.replace(' ', '\u00A0');
+  }
+});
+
+</script>
+
 </body>
 </html>
