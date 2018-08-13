@@ -37,7 +37,7 @@
 </footer>
 
 <script>
-/* wrap first three non-filler words in a span */
+/* wrap first three non-filler words in a span for small-caps treatment */
 [].forEach.call(document.querySelectorAll('header + section > p:first-child, header + section > hr + p'), function(p) {
   var first = p.firstChild, matches;
   /* regex to match first three non-filler words, lol */
@@ -52,6 +52,7 @@
   }
 });
 
+/* Avoid widows for key elements */
 var selector = '.description, .listing li a';
 /* kids, don't write code like this */
 if (innerWidth > 720) selector += ', h1, h2';
@@ -66,7 +67,6 @@ if (innerWidth > 720) selector += ', h1, h2';
     last.nodeValue = last.nodeValue.slice(0, -match.length) + match.replace(' ', '\u00A0');
   }
 });
-
 </script>
 
 </body>
