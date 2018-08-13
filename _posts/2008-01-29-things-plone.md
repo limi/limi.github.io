@@ -26,7 +26,7 @@ With that out of the way, get a cup of your favorite beverage, and let’s move 
 
 ***
 
-## #1: Simple development should be possible entirely through the web&nbsp;interface
+## #1: Simple development should be possible entirely through the web interface
 
 For those of you familiar with Zope, this point can be summarized as “Deliver on the promise of ZClasses”. Yes, I said ZClasses. For those of you unfamiliar with Zope, ZClasses is an old — and now frowned-upon — part of Zope that allows you to construct content types entirely through a web interface. It is what I usually refer to as the “gateway drug” of Zope. Most people that got into Zope in the beginning did so especially based on what ZClasses were supposed to deliver.
 
@@ -56,7 +56,7 @@ This reality is getting closer with the arrival of Deliverance, an approach that
 
 Again, this is something that I believe is in good hands, but needs shepherding, cheer-leading and feedback to make sure we make it as simple as possible to put your own look on Plone.
 
-## #3: Fantastic searching, grouping <abbr title="and">&amp;</abbr> batching operations for content should be accessible to everyone
+## #3: Fantastic searching, grouping & batching operations for content should be accessible to everyone
 
 The best way to sum this up for those of you who are familiar with Plone already would be *Collections on steroids*. There is a real need to organize and group content in Plone in various ways, and the current Collection and search implementations in Plone barely scrapes the surface of what we’re capable of in this area.
 
@@ -78,7 +78,7 @@ The back-end part of this equation has received a lot of attention lately, with 
 
 On the front-end, projects like [Plone4Artists] have explored a number of different approaches to handling these types of data in Plone, and there are several important lessons to learn there.
 
-## #5: Streamlined, unified install experience on all&nbsp;platforms
+## #5: Streamlined, unified install experience on all platforms
 
 Plone already has the best install experience of any content management system — it’s really the Gold Standard in how easy you can make it to get started with such a sophisticated framework across all the major platforms. So why do we need to change it? The reason is simple: recent progress towards integration and unification with the Python world — especially eggs (similar to JAR files for those of you from the Java world) — necessitates some improvements here.
 
