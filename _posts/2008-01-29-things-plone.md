@@ -124,7 +124,7 @@ The Grid type wouldn’t even have to have any spreadsheet-like properties inclu
 
 Whether this would be backed by something like SQLite with the ability to scale up to another SQL database as the storage later — or simply be a basic type — I’ll leave for the people with that kind of experience to decide. In any case, a Grid type would fill a real need in the current Plone line-up.
 
-## #8: Unify similar&nbsp;concepts
+## #8: Unify similar concepts
 
 Programmers often have a tendency to abstract away things until they are almost unrecognizable, to the great frustration of UI designers everywhere, of course. Making things too generic makes it hard for people to recognize patterns and makes it harder for them to let the tool guide them in what they want to do. However, the opposite tendency is also very much prevalent, and leads to a lot of redundant implementations, and confusion in what add-on products to use.
 
@@ -203,7 +203,7 @@ I’m bringing sexy back — uhm, I mean…Favorites back. There are a number of
 *   The favorite marker can mark content to be available offline via plugins like [Google Gears]
 *   …and I’m sure you have other great examples.
 
-## #16: Improve desktop&nbsp;integration
+## #16: Improve desktop integration
 
 Plone is already far ahead of its competitors in this area, thanks to the tireless efforts of Enfold Systems on the Windows side of things with Enfold Desktop. There’s still a lot of challenges here, and some specifics I’d like to discuss are:
 
@@ -219,7 +219,7 @@ This is more a pie-in-the-sky discussion item. Looking at other successful open 
 
 There are a number of add-ons that deserve tighter integration (mostly in a political sense) with Plone — having recommended solutions for certain common add-ons helps the platform in general. We already have some projects that in some ways behave like this — LinguaPlone comes to mind — but having an accepted process and some guidelines around this is something we’ll need sooner or later.
 
-## #18: Stay hungry <abbr title="and">&amp;</abbr>&nbsp;foolish
+## #18: Stay hungry & foolish
 
 Plone has always been great at encouraging experimentation and wild ideas. I want us to continue doing this, and make it clear that we value it — but at the same time let people know that experiments aren’t necessarily going to end up in the core. Do more experimentation and stuff that has “fun” PR value — things like iPhone support and social network features are relevant contemporary examples.
 
