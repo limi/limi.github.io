@@ -297,7 +297,7 @@ article a:link,
 article a:visited {
 	color: rgb(195,31,35);
 	text-decoration: none;
-	border-bottom: 1px solid #ddd;
+	/* border-bottom: 1px solid #ddd; */
 }
 
 article a:active {
