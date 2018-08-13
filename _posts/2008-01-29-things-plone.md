@@ -213,7 +213,7 @@ Plone is already far ahead of its competitors in this area, thanks to the tirele
 *   Can we make it easy to batch-apply metadata on upload using some sort of URL mapping?
 *   Can we build a comprehensive test suite to make sure that our assumptions don’t break when we do changes in the various underlying implementations? Can we make it a given that a shipping Plone release has working WebDAV integration on all the major implementations — every time?
 
-## #17: "Recommended apps" tier
+## #17: "Best apps" tier
 
 This is more a pie-in-the-sky discussion item. Looking at other successful open source communities, it strikes me that Plone has a lot in common with how the [KDE project] manages their platform. They have a core that is useful in itself, but also a lot of add-ons that are more or less recommended — and the best-of-breed even ship with KDE itself. Working out how we can achieve a similar model with cues taken from the earlier point on installation capabilities and upgrade/dependency management would be very interesting.
 
