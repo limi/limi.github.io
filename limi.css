@@ -407,7 +407,7 @@ p {
 	line-height: 1.5em;
 	text-indent: 1em;
 	margin: 0.25em 0;
-	text-align: left;
+	text-align: justfy;
         /* -moz-hyphens: auto; */
 }
 
