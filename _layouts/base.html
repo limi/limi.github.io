@@ -37,6 +37,17 @@
 </footer>
 
 <script>
+/* insert hair spaces before and after em dashes */
+[].forEach.call(document.querySelectorAll('header + section > p'), function(p) {
+  var first = p.firstChild, matches;
+  if (first instanceof Text) {
+    var value = first.nodeValue.replace(/ [\u2014] /g, '\u200A\u2014\u200A');
+    if (value != first.nodeValue) {
+      first.nodeValue = value;
+    }
+  }
+});
+
 /* wrap first three non-filler words in a span for small-caps treatment */
 [].forEach.call(document.querySelectorAll('header + section > p:first-child, header + section > hr + p'), function(p) {
   var first = p.firstChild, matches;

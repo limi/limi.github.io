@@ -18,7 +18,7 @@ author:
   image: ks.png
 ---
 
-If I told you that a company is shipping a product to hundreds of millions of users right now, and included in the product are several prominent buttons that will break the product completely if you click them, and possibly lock you out from the Internet&#8202;&mdash;&#8202;can you guess which product it is?
+If I told you that a company is shipping a product to hundreds of millions of users right now, and included in the product are several prominent buttons that will break the product completely if you click them, and possibly lock you out from the Internet &mdash; can you guess which product it is?
 
 Sounds like that’s the kind of product that only a large enterprise software company like Oracle or IBM would ship, right? Maybe some of the antivirus extortionware software for Windows? Maybe VPN software?
 
@@ -27,9 +27,9 @@ In the currently shipping version, Firefox ships with many options that will ren
 
 ***
 
-How did we get to this point with Firefox? Most of these options exist for historical reasons&#8202;&mdash;&#8202;whenever there’s a new feature, it often gets a checkbox to turn it off. The other common case is when a feature isn’t obviously useful to everyone, and it’s hard to make an obvious choice about whether to have it enabled by default or not&#8202;&mdash;&#8202;so we build in a switch. Or sometimes the person implementing it thinks it should have a switch, and nobody stops to ask if it’s a good idea.
+How did we get to this point with Firefox? Most of these options exist for historical reasons &mdash; whenever there’s a new feature, it often gets a checkbox to turn it off. The other common case is when a feature isn’t obviously useful to everyone, and it’s hard to make an obvious choice about whether to have it enabled by default or not &mdash; so we build in a switch. Or sometimes the person implementing it thinks it should have a switch, and nobody stops to ask if it’s a good idea.
 
-I’m not going to retread discussions about this, there are many versions of that article across the web&#8202;&mdash;&#8202;the main point is that it is usually a failure of design, and a failure to agree on sensible default behaviors. Options are “the cheap way out,” and they usually speak to an inability to agree on what to do in a given situation.
+I’m not going to retread discussions about this, there are many versions of that article across the web &mdash; the main point is that it is usually a failure of design, and a failure to agree on sensible default behaviors. Options are “the cheap way out,” and they usually speak to an inability to agree on what to do in a given situation.
 
 **Design by committee often looks like a row of checkboxes.**
 
