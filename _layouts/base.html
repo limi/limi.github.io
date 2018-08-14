@@ -57,13 +57,14 @@
     var match = matches[0];
     if (!match) return;
     first.nodeValue = first.nodeValue.slice(match.length);
-    var letter = document.createElement('span');
-    letter.className = 'dropcaps';
-    letter.textContent = match.slice(0, 1);
-    p.insertBefore(letter, first);
+    // var letter = document.createElement('span');
+    // letter.className = 'dropcaps';
+    // letter.textContent = match.slice(0, 1);
+    // p.insertBefore(letter, first);
     var span = document.createElement('span');
-    span.className = 'smallcaps';
-    span.textContent = match.slice(1);
+    // span.className = 'smallcaps';
+    // span.textContent = match.slice(1);
+    span.textContent = match;
     p.insertBefore(span, first);
   }
 });

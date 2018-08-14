@@ -400,7 +400,7 @@ hr + p:first-line {
 */
 
 /* First words are transformed to small-caps if they are marked with a span immediately inside a p */
-p > .smallcaps {
+p > span:first-child {
     text-transform: lowercase;
     font-variant: small-caps;
 }
@@ -416,6 +416,8 @@ section > :not(hr) + p::first-letter {
 	padding-left: 1em;
 }
 
+header + section > p:first-child::first-letter,
+header + section > hr + p::first-letter,
 header + section > p:first-child > .dropcaps,
 header + section > hr + p > .dropcaps {
     font-size: 3.0em;
