@@ -400,7 +400,7 @@ hr + p:first-line {
 */
 
 /* First words are transformed to small-caps if they are marked with a span immediately inside a p */
-p > span:first-child {
+p > .smallcaps {
     text-transform: lowercase;
     font-variant: small-caps;
 }
@@ -411,13 +411,13 @@ header + section > hr + p {
 }
 
 /* can't use text-indent because of Safari on iOS horizontal overflow bug :( */
-section > p::first-letter {
+section > :not(hr) + p::first-letter {
 	display: inline-block;
 	padding-left: 1em;
 }
 
-header + section > p:first-child::first-letter,
-header + section > hr + p::first-letter {
+header + section > p:first-child > .dropcaps,
+header + section > hr + p > .dropcaps {
     font-size: 3.0em;
     line-height: 1;
     margin-top: -0.01em;
