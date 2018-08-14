@@ -13,7 +13,7 @@ excerpt: "With a renewed focus on improving the Firefox install experience — w
 
 
 
-<span>Lately, the [Metrics team]</span> here at Mozilla have conducted some great research into why some people leave the installer before Firefox is finished installing, [uncovering a couple of bugs in the process], and improving the way we ask people [what will be their default browser].
+Lately, the [Metrics team] here at Mozilla have conducted some great research into why some people leave the installer before Firefox is finished installing, [uncovering a couple of bugs in the process], and improving the way we ask people [what will be their default browser].
 
 (Also make sure you read [part 2 of this article])
 

@@ -42,6 +42,18 @@ $color5: rgba(0, 61, 91, 1);
 }
 /* @end */
 
+@font-face {
+  font-family: 'Iowan Old Style';
+  src: local('Iowan Old Style');
+}
+
+/* replace ampersands with pretty italic Baskerville */
+@font-face {
+  font-family: 'Iowan Old Style';
+  src: local('Baskerville-Italic'), local('Iowan Old Style');
+  unicode-range: U+0026;
+}
+
 /* @group Basics */
 
 body {
@@ -207,22 +219,40 @@ article table tbody tr:nth-child(even) {
 /* @group Listings */
 ul.listing {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: calc(50% - 1px) calc(50% - 1px);
 	grid-column-gap: 2px;
 	grid-row-gap: 2px;
 	list-style: none;
-	margin: none;
 	font-size: 2em;
 	margin: 2px 0;
 	padding: 0;
+	text-align: center;
 }
 
 ul.listing li {
-	background-color: #333;
 	margin: 0;
+}
+
+ul.listing li a {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	background-color: #333;
 	padding: 15%;
 	height: 100px;
-	text-align: center;
+}
+
+/* Smaller displays only get one column */
+@media (max-width: 720px) {
+	ul.listing {
+		grid-template-columns: auto;
+	}
+	ul.listing li {
+		margin: 0;
+	}
+	ul.listing li a {
+		height: 75px;
+	}
 }
 
 /*
@@ -233,19 +263,19 @@ ul.listing li {
 5: rgba(0, 61, 91, 1);
 */
 
-ul.listing li:nth-child(1n) {
+ul.listing li:nth-child(1n) a {
 	background-color: rgba(237, 174, 73, 1);
 }
-ul.listing li:nth-child(2n) {
+ul.listing li:nth-child(2n) a {
 	background-color: rgba(209, 73, 91, 1);
 }
-ul.listing li:nth-child(3n) {
+ul.listing li:nth-child(3n) a {
 	background-color: rgba(0, 121, 140, 1);
 }
-ul.listing li:nth-child(4n) {
+ul.listing li:nth-child(4n) a {
 	background-color: rgba(48, 99, 142, 1);
 }
-ul.listing li:nth-child(5n) {
+ul.listing li:nth-child(5n) a {
 	background-color: rgba(0, 61, 91, 1);
 }
 
@@ -267,7 +297,7 @@ article a:link,
 article a:visited {
 	color: rgb(195,31,35);
 	text-decoration: none;
-	border-bottom: 1px solid #ddd;
+	/* border-bottom: 1px solid #ddd; */
 }
 
 article a:active {
@@ -370,17 +400,28 @@ hr + p:first-line {
 */
 
 /* First words are transformed to small-caps if they are marked with a span immediately inside a p */
-p span:first-child {
+p > span:first-child {
     text-transform: lowercase;
     font-variant: small-caps;
 }
 
-p.description + p:first-letter,
-hr + p:first-letter {
-    font-size: 3.0em;
+header + section > p:first-child,
+header + section > hr + p {
+	text-indent: -0.2em; /* change this to adjust both drop-cap and first-line simultaneously */
+}
 
+/* can't use text-indent because of Safari on iOS horizontal overflow bug :( */
+section > p::first-letter {
+	display: inline-block;
+	padding-left: 1em;
+}
+
+header + section > p:first-child::first-letter,
+header + section > hr + p::first-letter {
+    font-size: 3.0em;
     line-height: 1;
     margin-top: -0.01em;
+		margin-bottom: -0.02em;
 /* One of the rare Firefox CSS bugs! Firefox is still applying the parent
    paragraph’s line-height to the first letter, ignoring its much-larger
    font size, while the other browsers are correctly applying a line-height
@@ -388,9 +429,11 @@ hr + p:first-letter {
 
     float: left;
     display: block;
-    margin-right: 0.03em;
-    margin-left: -0.1em;
+    margin-right: 0.07em;
+    margin-left: 0; /* change this to adjust drop-cap */
+		padding-left: 0;
     color: rgb(195,31,35);
+		font-variant: normal;
     text-transform: uppercase;
 }
 
@@ -405,7 +448,7 @@ hr + p {
 p {
 	font-size: 1.1em;
 	line-height: 1.5em;
-	text-indent: 1em;
+	text-indent: 0;
 	margin: 0.25em 0;
 	text-align: justfy;
         /* -moz-hyphens: auto; */
@@ -604,6 +647,7 @@ p.byline {
     text-transform: lowercase;
     clear:both;
 	margin: 1em 0;
+	text-indent: 0;
 }
 
 .discreet {
@@ -637,11 +681,7 @@ p.byline {
 	}
 
 	ul.listing {
-		font-size: 1.5em;
-	}
-
-	ul.listing li {
-		height: 250px;
+		font-size: 1.75em;
 	}
 
 	article .container > header, article .container > section, article .container > footer {

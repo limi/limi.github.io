@@ -13,7 +13,7 @@ excerpt: "What should Plone improve?"
 
 ---
 
-<span>Let me preface</span> this with the obvious disclaimers for the readers that aren’t intimately familiar with the Plone community and culture:
+Let me preface this with the obvious disclaimers for the readers that aren’t intimately familiar with the Plone community and culture:
 
 *   This is my personal list, and doesn’t necessarily reflect what the Plone Community wants to do.
 *   Even though I work at Google, there’s nothing here that constitutes knowledge of any secrets about future products. Any mention of Google here is as an outsider looking in, as I don’t work in the below mentioned focus areas — and have no insights into what they are up to next.
@@ -24,9 +24,9 @@ This list is merely a brain dump meant to inspire and provoke discussion in the 
 
 With that out of the way, get a cup of your favorite beverage, and let’s move on to the list! These are in no particular order, but I numbered them to make it easier to keep track of how far along you are in the document.
 
-* * *
+***
 
-## #1: Simple development should be possible entirely through the web&nbsp;interface
+## #1: Simple development should be possible entirely through the web interface
 
 For those of you familiar with Zope, this point can be summarized as “Deliver on the promise of ZClasses”. Yes, I said ZClasses. For those of you unfamiliar with Zope, ZClasses is an old — and now frowned-upon — part of Zope that allows you to construct content types entirely through a web interface. It is what I usually refer to as the “gateway drug” of Zope. Most people that got into Zope in the beginning did so especially based on what ZClasses were supposed to deliver.
 
@@ -56,7 +56,7 @@ This reality is getting closer with the arrival of Deliverance, an approach that
 
 Again, this is something that I believe is in good hands, but needs shepherding, cheer-leading and feedback to make sure we make it as simple as possible to put your own look on Plone.
 
-## #3: Fantastic searching, grouping <abbr title="and">&amp;</abbr> batching operations for content should be accessible to everyone
+## #3: Fantastic searching, grouping & batching operations for content should be accessible to everyone
 
 The best way to sum this up for those of you who are familiar with Plone already would be *Collections on steroids*. There is a real need to organize and group content in Plone in various ways, and the current Collection and search implementations in Plone barely scrapes the surface of what we’re capable of in this area.
 
@@ -78,7 +78,7 @@ The back-end part of this equation has received a lot of attention lately, with 
 
 On the front-end, projects like [Plone4Artists] have explored a number of different approaches to handling these types of data in Plone, and there are several important lessons to learn there.
 
-## #5: Streamlined, unified install experience on all&nbsp;platforms
+## #5: Streamlined, unified install experience on all platforms
 
 Plone already has the best install experience of any content management system — it’s really the Gold Standard in how easy you can make it to get started with such a sophisticated framework across all the major platforms. So why do we need to change it? The reason is simple: recent progress towards integration and unification with the Python world — especially eggs (similar to JAR files for those of you from the Java world) — necessitates some improvements here.
 
@@ -124,7 +124,7 @@ The Grid type wouldn’t even have to have any spreadsheet-like properties inclu
 
 Whether this would be backed by something like SQLite with the ability to scale up to another SQL database as the storage later — or simply be a basic type — I’ll leave for the people with that kind of experience to decide. In any case, a Grid type would fill a real need in the current Plone line-up.
 
-## #8: Unify similar&nbsp;concepts
+## #8: Unify similar concepts
 
 Programmers often have a tendency to abstract away things until they are almost unrecognizable, to the great frustration of UI designers everywhere, of course. Making things too generic makes it hard for people to recognize patterns and makes it harder for them to let the tool guide them in what they want to do. However, the opposite tendency is also very much prevalent, and leads to a lot of redundant implementations, and confusion in what add-on products to use.
 
@@ -203,7 +203,7 @@ I’m bringing sexy back — uhm, I mean…Favorites back. There are a number of
 *   The favorite marker can mark content to be available offline via plugins like [Google Gears]
 *   …and I’m sure you have other great examples.
 
-## #16: Improve desktop&nbsp;integration
+## #16: Improve desktop integration
 
 Plone is already far ahead of its competitors in this area, thanks to the tireless efforts of Enfold Systems on the Windows side of things with Enfold Desktop. There’s still a lot of challenges here, and some specifics I’d like to discuss are:
 
@@ -213,13 +213,13 @@ Plone is already far ahead of its competitors in this area, thanks to the tirele
 *   Can we make it easy to batch-apply metadata on upload using some sort of URL mapping?
 *   Can we build a comprehensive test suite to make sure that our assumptions don’t break when we do changes in the various underlying implementations? Can we make it a given that a shipping Plone release has working WebDAV integration on all the major implementations — every time?
 
-## #17: "Recommended apps" tier
+## #17: "Best apps" tier
 
 This is more a pie-in-the-sky discussion item. Looking at other successful open source communities, it strikes me that Plone has a lot in common with how the [KDE project] manages their platform. They have a core that is useful in itself, but also a lot of add-ons that are more or less recommended — and the best-of-breed even ship with KDE itself. Working out how we can achieve a similar model with cues taken from the earlier point on installation capabilities and upgrade/dependency management would be very interesting.
 
 There are a number of add-ons that deserve tighter integration (mostly in a political sense) with Plone — having recommended solutions for certain common add-ons helps the platform in general. We already have some projects that in some ways behave like this — LinguaPlone comes to mind — but having an accepted process and some guidelines around this is something we’ll need sooner or later.
 
-## #18: Stay hungry <abbr title="and">&amp;</abbr>&nbsp;foolish
+## #18: Stay hungry & foolish
 
 Plone has always been great at encouraging experimentation and wild ideas. I want us to continue doing this, and make it clear that we value it — but at the same time let people know that experiments aren’t necessarily going to end up in the core. Do more experimentation and stuff that has “fun” PR value — things like iPhone support and social network features are relevant contemporary examples.
 

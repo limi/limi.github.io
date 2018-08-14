@@ -11,13 +11,13 @@ excerpt: "Part 1: Simplifying Plone’s content authoring experience for end-use
 
 ---
 
-<span>Over the past</span> few weeks, I have done some experiments in simplifying the UI to make Plone less intimidating for newbies. A lot of these experiences are based on deploying it in a limited fashion internally here at Google. Generally, Plone is in a state now where most of the major areas of functionality is in place, so it’s time to look at it with fresh eyes — it’s not exactly Plone 1.0 when it comes to number of things you can click anymore.
+Over the past few weeks, I have done some experiments in simplifying the UI to make Plone less intimidating for newbies. A lot of these experiences are based on deploying it in a limited fashion internally here at Google. Generally, Plone is in a state now where most of the major areas of functionality is in place, so it’s time to look at it with fresh eyes — it’s not exactly Plone 1.0 when it comes to number of things you can click anymore.
 
 I have built a clickable prototype of the new UI, since the best way to show you what the new editing experience looks like is to show it in action.
 
 Note that while I’m using the NuPlone theme in this demo, the approach works equally well with any theme — this is about functionality, not looks.
 
-## Demo <abbr title="and">&amp;</abbr> Notes
+## Demo & Notes
 
 <video src="/media/simplify-edit-ui.mov" title="Movie showing the new approach" autoplay loop></video>
 

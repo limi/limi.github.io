@@ -4,14 +4,14 @@ layout: post
 redirect_from: "/articles/firefox-mac-installation-experience-revisited/"
 
 title: "Firefox Mac installation experience, revisited"
-subtitle: "A second look at the issues with installation of firefox on the mac, with recommendations on how to fix them."
+subtitle: "A second look at the issues with installation of firefox on the mac, with recommendations on how to fix them"
 cover_image: mountains.jpg
 
-excerpt: "A second look at the issues with installation of firefox on the mac, with recommendations on how to fix them."
+excerpt: "A second look at the issues with installation of firefox on the mac, with recommendations on how to fix them"
 
 ---
 
-<span>Recently, I posted an article</span> on how to [improve the Firefox installer experience] on the OS X platform, and how we were looking at making the user experience better for first-time Mac users and people coming from other platforms.
+Recently, I posted an article on how to [improve the Firefox installer experience] on the OS X platform, and how we were looking at making the user experience better for first-time Mac users and people coming from other platforms.
 
 After posting the first article, we continued investigating how to make the installation experience better, and a developer urged us to check out how [Delicious Library] did it — by giving people the option to move the application to the right folder when it was first launched.
 

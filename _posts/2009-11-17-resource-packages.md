@@ -14,15 +14,15 @@ excerpt: "A proposal to make downloading web page resources faster in all browse
 
 Update, summer 2011: The Firefox team has decided to pursue these types of improvements via SPDY and HTTP Pipelining instead, but I will keep this original article about Resource Packages online for historical purposes.
 
-* * *
+***
 
 What if there was a backwards compatible way to transfer all of the resources that are used on every single page in your site — CSS, JS, images, anything else — in a single HTTP request at the start of the first visit to the page? This is what Resource Package support in browsers will let you do.
 
-* * *
+***
 
 Update: There's now a proper [Resource Package specification], and any details there override whatever is written here. This article is a bit more conversational, and is useful to understand what we’re trying to do. If you’re looking for specifics — like what formats we support and how we parse — please refer to the formal specification instead of this article.
 
-* * *
+***
 
 When it comes to browser performance, it’s widely known that a lot of the time is spent waiting for HTTP requests. You are probably familiar with the issue; a well-known optimization technique is to reduce the number of HTTP requests that are done for a given web site, since browsers only do 2–6 requests in parallel. This is why techniques like [image spriting] exist.
 
@@ -317,7 +317,7 @@ Sites usually use multiple hostnames to get around per-host connection limits, w
 
 If you have any suggestions on how to improve this proposal, comment in the open thread over at [Mozilla’s dev.platform forum]. It has been filed as [bug #529208] in Bugzilla for those of you that want to monitor its progress.
 
-* * *
+***
 
 Proposal State: Ready for prototype implementation
 

@@ -10,7 +10,7 @@ cover_image: mountains.jpg
 excerpt: "Update on paper cut bugs for Firefox 4"
 
 ---
-<span>A while back</span>, I gave a presentation here at Mozilla based on feedback from a question thread posted to the Reddit web site: “[I work on the Firefox User Experience team, and this is your chance to tell me about your pet peeves].”
+A while back, I gave a presentation here at Mozilla based on feedback from a question thread posted to the Reddit web site: “[I work on the Firefox User Experience team, and this is your chance to tell me about your pet peeves].”
 
 We got over 2 000 — yeah, that’s *two thousand* — replies, and spent some time analyzing and grouping the feedback into actionable bug reports and general focus areas, which was then presented to the Mozilla team and worldwide community in a talk here in Mountain View & broadcast on [Air Mozilla].
 
@@ -33,7 +33,7 @@ Of the 7 focus areas identified in the presentation, we chose to focus on two ar
 
 This doesn’t mean that the other bugs are any less important — but we obviously have to pick our battles to get stuff done. Don’t let this discourage you from handling bugs in the other focus areas, though!
 
-## Our current Paper Cut&nbsp;Heroes
+## Our current Paper Cut Heroes
 
 Several of the bugs have seen significant activity over the past month, and I’ll try to call out progress and general awesomeness over the coming weeks. Currently, excellent work is being done on:
 
@@ -56,9 +56,9 @@ This week’s selection of paper cuts that we are currently looking for help in 
 
 If none of these issues tickled your fancy, take a look at the [full list of paper cut bugs] (tree view) — and pick something to fix!
 
-* * *
+***
 
-## Overview of paper&nbsp;cuts
+## Overview of paper cuts
 
 Here’s a quick overview of the focus areas we are trying to fix, along with links to the bugs that collect these in focus areas:
 

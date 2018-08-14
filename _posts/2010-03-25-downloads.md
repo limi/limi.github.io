@@ -11,7 +11,7 @@ excerpt: "Saving the world,<br> one file at a time"
 
 ---
 
-<span>The confusing <abbr title="and">&amp;</abbr> inconsistent</span> state of downloading files using a web browser has long been a pet peeve of mine. The current situation is pretty much a mess in every web browser. Issues with file systems in general notwithstanding, even doing simple downloads to a centrally defined folder can be confusing, even frustrating.
+The confusing & inconsistent state of downloading files using a web browser has long been a pet peeve of mine. The current situation is pretty much a mess in every web browser. Issues with file systems in general notwithstanding, even doing simple downloads to a centrally defined folder can be confusing, even frustrating.
 
 ![](/media/sketch-downloads-wide.png "Sketch by Stephen Horlander")
 
@@ -128,7 +128,7 @@ Does quite a few things right (as usual), but have some weird defaults that mar 
 
 Opera shares most of the same issues as most of the other browsers (asks every time it downloads, opening with non-sensical applications like DiskImageMounter, etc), but overall it is standard fare. One thing to note is the amount of Power User functionality included in the main UI, with things like the “Quick Download” field that will download whatever URL you paste into it directly, its support for downloading all the resources linked from a page, etc. The quick download field is also curiously positioned in exactly the same location as you would expect to find a search/filter bar, and people do try to use it as such — with predictably bad results.
 
-## Suggested improvements to the download handling in&nbsp;Firefox
+## Suggested improvements to the download handling in Firefox
 
 Informed by what other browsers do for downloads, it’s clear that Firefox already does a good job in comparison — but it can also be made a lot better without an ovwerwhelming amount of work. The infrastructure is solid, we have the necessary functionality for most of this already — but the user experience of how it all fits together can be significantly improved.
 
@@ -228,7 +228,7 @@ In general, we want to do the right thing when you download files — but there 
 
 There are likely to be edge cases that we don’t know about, but we should be able to find a compromise between usability and security — and err on the side of security when it isn’t possible to detect what the obvious thing to do is.
 
-## Next steps <abbr title="and">&amp;</abbr> feedback
+## Next steps & feedback
 
 Of course, we want to hear your ideas. Any obvious things that could be improved, any interesting approaches in other browsers or applications? The preferred approach is to put something on your blog (as long as you mention my name on the blog and link to this post, I’ll discover it), or you can give feedback in [Mozilla’s dev.usability forum].
 

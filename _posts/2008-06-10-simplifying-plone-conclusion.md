@@ -11,7 +11,7 @@ excerpt: "What are the next steps?"
 
 ---
 
-<span>In the articles</span> [Simplifying the content authoring experience], [Improved handling of rich media and] [Composite pages, listings and content proxies], we have laid out an approach to radically simplify the content authoring experience in Plone.
+In the articles [Simplifying the content authoring experience], [Improved handling of rich media] and [Composite pages, listings and content proxies], we have laid out an approach to radically simplify the content authoring experience in Plone.
 
 **We have in one fell swoop eliminated the need for:**
 
@@ -51,6 +51,6 @@ We hope to have the first of these sprints at the [Plone Conference 2008] — an
 I hope you will join us in taking Plone to the next level!
 
 [Simplifying the content authoring experience]: /plone-editing
-[Improved handling of rich media and]: /plone-rich-media
+[Improved handling of rich media]: /plone-rich-media
 [Composite pages, listings and content proxies]: /composite-pages
 [Plone Conference 2008]: http://plone.org/events/conferences/2008-washington-dc/
