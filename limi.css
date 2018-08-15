@@ -50,7 +50,7 @@ $color5: rgba(0, 61, 91, 1);
 /* replace ampersands with pretty italic Baskerville */
 @font-face {
   font-family: 'Iowan Old Style';
-  src: local('Baskerville-Italic'), local('Iowan Old Style');
+  src: local('Baskerville-Italic'), local('Iowan Old Style'), url(https://fonts.gstatic.com/s/librebaskerville/v5/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQDO-Wyrs.woff2) format('woff2');
   unicode-range: U+0026;
 }
 
