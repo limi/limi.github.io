@@ -660,9 +660,6 @@ p.byline {
     font-size: 95%;
 }
 
-
-
-
 /* @end */
 
 /* @group iPhone */
@@ -683,6 +680,10 @@ p.byline {
 
 	h1 {
 		font-size: 2.75em;
+	}
+
+	p.byline {
+		font-size: 110%;
 	}
 
 	ul.listing {
