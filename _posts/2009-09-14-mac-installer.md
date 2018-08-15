@@ -60,10 +60,10 @@ We can make some simple fixes to the current approach to make the experience bet
 
 What problems do we want to solve?
 
-*   People that don’t understand the standard installation process on Mac should be helped towards their goal.
-*   Downloading Firefox and then forgetting about the download should be less common.
-*   Maintain the standard installation model for the users that prefer the drag & drop install method.
-*   Make it possible to set Firefox as your default browser during the install process.
+: People that don’t understand the standard installation process on Mac should be helped towards their goal.
+: Downloading Firefox and then forgetting about the download should be less common.
+: Maintain the standard installation model for the users that prefer the drag & drop install method.
+: Make it possible to set Firefox as your default browser during the install process.
 
 How do we fix these problems? By supplying a dedicated installer in the disk image, similar to the standard Mac OS X application installer:
 
