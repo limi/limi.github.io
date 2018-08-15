@@ -39,13 +39,13 @@ However, given the option to detect when people are launching it from the disk i
 
 ## Our options, given an installer-less setup
 
-Ship a DMG like we currently do, and add disk image detection.
+Ship a DMG like we currently do, and add disk image detection
 
 : <i>Pro:</i> Provides a dedicated disk image window in the Finder with only one choice — presentation is nicer, and it’s more obvious what to do next. Makes it easy to see which version of Firefox the disk image contains.
 
 : <i>Con:</i> Leaves the disk image behind, unless we include code to unmount & delete the disk image as part of the application.
 
-Ship as an internet-enabled DMG or as a ZIP file, with the “Downloads” folder detection.
+Ship as an internet-enabled DMG or as a ZIP file, with the “Downloads” folder detection
 
 : <i>Pro:</i> Both ZIP files and internet-enabled disk images automatically unpack, leaving less clutter on the file system.
 
