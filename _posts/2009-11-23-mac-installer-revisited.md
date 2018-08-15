@@ -17,7 +17,7 @@ After posting the first article, we continued investigating how to make the inst
 
 A few days later, the article got picked up by a number of Mac blogs and news sites — among the most well-known: [Daring Fireball], [Digg], [TUAW], [OSNews], as well as the French [MacGeneration].
 
-Soon, the hate mail started trickling in. “Nothing is wrong with the Mac install experience.” “People that can’t teach themselves how disk images work shouldn’t be allowed to use a Mac!” *&*cetera. I wish I was making this up, but these *are* from real emails. Fun stuff.
+Soon, the hate mail started trickling in. “Nothing is wrong with the Mac install experience.” “People that can’t teach themselves how disk images work shouldn’t be allowed to use a Mac!” et cetera. I wish I was making this up, but these *are* from real emails. Fun stuff.
 
 But there was also a surprisingly large, second group of people: software developers and support people. To quote from one of the emails:
 
@@ -41,15 +41,15 @@ However, given the option to detect when people are launching it from the disk i
 
 Ship a DMG like we currently do, and add disk image detection.
 
-Pro: Provides a dedicated disk image window in the Finder with only one choice — presentation is nicer, and it’s more obvious what to do next. Makes it easy to see which version of Firefox the disk image contains.
+: <i>Pro:</i> Provides a dedicated disk image window in the Finder with only one choice — presentation is nicer, and it’s more obvious what to do next. Makes it easy to see which version of Firefox the disk image contains.
 
-Con: Leaves the disk image behind, unless we include code to unmount *&* delete the disk image as part of the application.
+: <i>Con:</i> Leaves the disk image behind, unless we include code to unmount & delete the disk image as part of the application.
 
 Ship as an internet-enabled DMG or as a ZIP file, with the “Downloads” folder detection.
 
-Pro: Both ZIP files and internet-enabled disk images automatically unpack, leaving less clutter on the file system.
+: <i>Pro:</i> Both ZIP files and internet-enabled disk images automatically unpack, leaving less clutter on the file system.
 
-Con: Leaves the file in the “Downloads” directory, where it may not be visible if there’s a lot of clutter. It also makes it harder to see which version of Firefox you have downloaded.
+: <i>Con:</i> Leaves the file in the “Downloads” directory, where it may not be visible if there’s a lot of clutter. It also makes it harder to see which version of Firefox you have downloaded.
 
 We’re partial to the internet-enabled DMG solution since it’s less involved, leaves fewer stray files on the system — it unpacks the the disk image <abbr title="and">&</abbr> removes it, leaving you with just the application-but allows you to retrieve it from the Trash if you really need it. and requires less of a change to the current installer build process.
 
