@@ -64,9 +64,9 @@ Try booking a travel on Hipmunk without JavaScript:
 
 Most sites these days that aren’t just displaying content will fail in interesting &amp; mysterious ways if you don’t have JavaScript enabled. For the general population, Firefox will appear broken.
 
-> Fun historical fact: If you disabled JavaScript in Netscape 4, CSS would also stop working&#8202;&mdash;&#8202;because CSS was applied to the page using… JavaScript.
+> Fun historical fact: If you disabled JavaScript in Netscape 4, CSS would also stop working — because CSS was applied to the page using… JavaScript.
 
-And yes, I know that some people have reasons (privacy, web development) to turn off JavaScript. There are many add-ons that can help with this&#8202;&mdash;&#8202;but it’s not something that we should ship to hundreds of millions of users.
+And yes, I know that some people have reasons (privacy, web development) to turn off JavaScript. There are many add-ons that can help with this — but it’s not something that we should ship to hundreds of millions of users.
 
 
 ## Turning off navigation
@@ -82,7 +82,7 @@ Good luck trying to find a web site that can help you fix this problem when your
 
 ## Turning off SSL &amp; TLS
 
-Now we’re getting to the “shooting fish in a barrel” category&#8202;&mdash;&#8202;there are many fun options in this preference panel:
+Now we’re getting to the “shooting fish in a barrel” category — there are many fun options in this preference panel:
 
 ![Preference Panel](https://i.imgur.com/Q1SRzmH.png)
 
@@ -103,9 +103,9 @@ Oh boy, where do we start?
 
 Personally, I feel pretty confident that the number of people that know how any of this works can be narrowed down to the people that work in these companies in the list. At least not too far off.
 
-This entire thing&#8202;&mdash;&#8202;possibly with the exception of the personal certificate list&#8202;&mdash;&#8202;needs to be moved out into an add-on for people with interest in managing their own certificates. It’s our job as a browser to keep you safe, we shouldn’t outsource this to individuals.
+This entire thing — possibly with the exception of the personal certificate list — needs to be moved out into an add-on for people with interest in managing their own certificates. It’s our job as a browser to keep you safe, we shouldn’t outsource this to individuals.
 
-You probably don’t want your bank to look like this because two days ago, you read an article on the Internet&#8202;&mdash;&#8202;authored by who-knows&#8202;&mdash;&#8202;telling you to remove an entry in your certificates “for added safety”:
+You probably don’t want your bank to look like this because two days ago, you read an article on the Internet — authored by who-knows — telling you to remove an entry in your certificates “for added safety”:
 
 ![Bank Site Error](https://i.imgur.com/Zn3auty.png)
 
@@ -113,7 +113,7 @@ Also, is that an NSS Internal PKCS #11 module in your pocket, or are you just ha
 
 ![NSS](https://i.imgur.com/eLDED0a.png)
 
-As Privacy Engineer Monica Chew at Mozilla asks, “[Is it really worth having a preference panel that benefits fewer than 2% of users overall?]”&#8202;&mdash;&#8202;obvious spoiler alert: The answer is no.
+As Privacy Engineer Monica Chew at Mozilla asks, “[Is it really worth having a preference panel that benefits fewer than 2% of users overall?]” — obvious spoiler alert: The answer is no.
 
 On the flipside, from that same article: how many users have we broken the web for when 1.6% of them may have TLS support turned off, and possibly not be aware of it? Even 1% of a few hundred million isn’t a trivial number of people.
 
@@ -130,7 +130,7 @@ What about computers with very little disk space? Shouldn’t you be able to res
 
 ***
 
-What have we learned? There are a lot of options in our products that are used by very few people, and some of them can have *disastrous* effects. We’re trying to design software that can be used by everyone&#8202;&mdash;&#8202;that also means we have to keep them safe and not make it so easy to break a product they rely on every day. None of these are put there with malicious intent&#8202;&mdash;&#8202;some of them  even made sense at the time&#8202;&mdash;&#8202;but it’s time for us to do some scrubbing and cleaning of the Firefox settings.
+What have we learned? There are a lot of options in our products that are used by very few people, and some of them can have *disastrous* effects. We’re trying to design software that can be used by everyone — that also means we have to keep them safe and not make it so easy to break a product they rely on every day. None of these are put there with malicious intent — some of them  even made sense at the time — but it’s time for us to do some scrubbing and cleaning of the Firefox settings.
 
 What about the product that *you* are building? Is it time to take a fresh look at what kind of options you include?
 

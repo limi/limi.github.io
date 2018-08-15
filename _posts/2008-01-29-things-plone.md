@@ -223,7 +223,7 @@ There are a number of add-ons that deserve tighter integration (mostly in a poli
 
 Plone has always been great at encouraging experimentation and wild ideas. I want us to continue doing this, and make it clear that we value it — but at the same time let people know that experiments aren’t necessarily going to end up in the core. Do more experimentation and stuff that has “fun” PR value — things like iPhone support and social network features are relevant contemporary examples.
 
-* * *
+***
 
 What’s on your list? What are the things you’d like to see Plone focus on? Do you have comments or suggestions on any of the above points? [Leave a comment on the mailing list], or blog about your own list!
 
