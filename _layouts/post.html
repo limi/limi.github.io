@@ -20,7 +20,7 @@ layout: base
         <header>
             {% if page.date %}
             <p class="byline">
-                <time pubdate datetime="{{ page.date | date: "%Y-%m-%d" }}"
+                <time datetime="{{ page.date | date: "%Y-%m-%d" }}"
                       title="{{ page.date | date: "%Y-%m-%d" }}">
                     {% assign d = page.date | date: "%-d"  %}
                     {{ page.date | date: "%B" }}
