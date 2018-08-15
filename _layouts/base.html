@@ -54,7 +54,7 @@
   var first = p.firstChild, matches;
   /* regex to match first three non-filler words, lol */
   if (first instanceof Text &&
-      (matches = first.nodeValue.match(/^\S+(?:\s(?:the|a|an|I))?\s\S+(?:\s(?:the|a|an|I))?\s\S+/))) {
+      (matches = first.nodeValue.match(/^\S+(?:\s(?:the|a|an|I|for|on|with))?\s\S+(?:\s(?:the|a|an|I|for|on|with))?\s\S+/i))) {
     var match = matches[0];
     if (!match) return;
     first.nodeValue = first.nodeValue.slice(match.length);
