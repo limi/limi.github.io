@@ -71,7 +71,7 @@
 });
 
 /* Avoid widows for key elements */
-var selector = '.description, .listing li a';
+var selector = '.description, .listing li a, p';
 /* kids, don't write code like this */
 if (innerWidth > 720) selector += ', h1, h2';
 [].forEach.call(document.querySelectorAll(selector), function(h) {
