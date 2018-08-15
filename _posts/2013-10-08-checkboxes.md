@@ -62,7 +62,7 @@ Try booking a travel on Hipmunk without JavaScript:
 
 ![](https://i.imgur.com/c6OOjp7.png)
 
-Most sites these days that aren’t just displaying content will fail in interesting &amp; mysterious ways if you don’t have JavaScript enabled. For the general population, Firefox will appear broken.
+Most sites these days that aren’t just displaying content will fail in interesting & mysterious ways if you don’t have JavaScript enabled. For the general population, Firefox will appear broken.
 
 > Fun historical fact: If you disabled JavaScript in Netscape 4, CSS would also stop working — because CSS was applied to the page using… JavaScript.
 
@@ -80,7 +80,7 @@ Good luck trying to find a web site that can help you fix this problem when your
 ![Browser with no buttons](https://i.imgur.com/0JmJ60q.png)
 
 
-## Turning off SSL &amp; TLS
+## Turning off SSL & TLS
 
 Now we’re getting to the “shooting fish in a barrel” category — there are many fun options in this preference panel:
 
@@ -134,7 +134,7 @@ What have we learned? There are a lot of options in our products that are used b
 
 What about the product that *you* are building? Is it time to take a fresh look at what kind of options you include?
 
-<small>Thanks to Frank Yan, Blake Winton, Tony Santos, Monica Chew, Sid Stamm &amp; Madhava Enros for reading drafts of this.</small>
+<small>Thanks to Frank Yan, Blake Winton, Tony Santos, Monica Chew, Sid Stamm & Madhava Enros for reading drafts of this.</small>
 
 [excellent add-ons ecosystem]: https://addons.mozilla.org
 [Is it really worth having a preference panel that benefits fewer than 2% of users overall?]: https://monica-at-mozilla.blogspot.com/2013/02/writing-for-98.html
