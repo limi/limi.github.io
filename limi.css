@@ -61,8 +61,6 @@ body {
 	border: 0;
 	font-family: "Iowan Old Style", "Libre Baskerville", serif;
 	color: #333;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
 }
 
 a {
@@ -496,8 +494,8 @@ b, strong, label {
 	font-family: "Iowan Old Style", Baskerville, "Libre Baskerville", Georgia, serif;
 }
 
-em {
-	font-family: "Iowan Old Style", Baskerville, "Libre Baskerville", Georgia, serif;
+em, address {
+	font-family: "IowanOldStyle-Italic", "Iowan Old Style", Baskerville, "Libre Baskerville", Georgia, serif;
 }
 
 i {
