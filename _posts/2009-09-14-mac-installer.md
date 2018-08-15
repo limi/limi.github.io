@@ -11,8 +11,6 @@ excerpt: "With a renewed focus on improving the Firefox install experience — w
 
 ---
 
-
-
 Lately, the [Metrics team] here at Mozilla have conducted some great research into why some people leave the installer before Firefox is finished installing, [uncovering a couple of bugs in the process], and improving the way we ask people [what will be their default browser].
 
 (Also make sure you read [part 2 of this article])
@@ -42,13 +40,13 @@ To make matters even worse, Firefox is often one of the first applications that 
 
 Some common errors that we have seen repeatedly among informal testing with friends and family are:
 
-They drag the application to their dock directly.
+Dragging the application to the dock directly
 
-This creates a link to the file *inside* the disk image, which means that every time they try starting Firefox, the disk image is unpacked and mounted, and starting of Firefox becomes very slow, which makes it a bad experience.
+: This creates a link to the file *inside* the disk image, which means that every time they try starting Firefox, the disk image is unpacked and mounted, and starting of Firefox becomes very slow, which makes it a bad experience.
 
-They think that starting Firefox is done by opening the disk image every time.
+Thinking that starting Firefox is done by opening the disk image every time
 
-This is very common, and the logic is that the first time they started Firefox, they had to do this, so they continue doing it. This makes starting Firefox a chore, since it takes a lot of clicks to accomplish.
+: This is very common, and the logic is that the first time they started Firefox, they had to do this, so they continue doing it. This makes starting Firefox a chore, since it takes a lot of clicks to accomplish.
 
 What’s interesting is that Apple *are* aware of this problem, and even added a warning that shows up when you try to run an application from the disk image:
 
@@ -64,7 +62,7 @@ What problems do we want to solve?
 
 *   People that don’t understand the standard installation process on Mac should be helped towards their goal.
 *   Downloading Firefox and then forgetting about the download should be less common.
-*   Maintain the standard installation model for the users that prefer the drag *&* drop install method.
+*   Maintain the standard installation model for the users that prefer the drag & drop install method.
 *   Make it possible to set Firefox as your default browser during the install process.
 
 How do we fix these problems? By supplying a dedicated installer in the disk image, similar to the standard Mac OS X application installer:
