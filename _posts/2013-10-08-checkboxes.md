@@ -45,7 +45,7 @@ From the Content panel in our settings, try unchecking the box:
 
 Here’s how Google’s front page looks like if you uncheck that box:
 
-![Google](https://i.imgur.com/3aLJmS2.png")
+![Google](https://i.imgur.com/3aLJmS2.png)
 
 That’s right, you can’t even see the text box you’re supposed to type your search into. Congratulations, we just broke the Internet.
 
