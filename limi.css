@@ -488,12 +488,13 @@ dt {
   font-variant: small-caps;
   margin-bottom: 0.25em;
   margin-top: 1em;
-  text-transform: lowercase;
+	text-transform: lowercase;
 }
 
 dd {
 	margin: 0 0 0.25em 1em;
   display: list-item;
+	font-size: 0.9em;
 }
 
 
