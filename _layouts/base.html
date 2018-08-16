@@ -73,7 +73,7 @@
 /* Avoid widows for key elements */
 var selector = '.description, .listing li a, p, em, strong, li';
 /* kids, don't write code like this */
-if (innerWidth > 720) selector += ', h2';
+if (innerWidth > 720) selector += ', h1, h2';
 [].forEach.call(document.querySelectorAll(selector), function(h) {
   var last = h.lastChild, matches;
   /* regex to match last two words if there are four or more words, lol */
