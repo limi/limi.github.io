@@ -22,19 +22,19 @@ Apologies for butchering Faaborg’s original image for demonstration purposes. 
 
 List the two choices adjacent to each other instead of using keyboard qualifiers like Shift or Alt
 
-We don’t want to introduce modes here if we can avoid it.
+: We don’t want to introduce modes here if we can avoid it.
 
 Don’t show the URL as part of the entry for the already open tab
 
-Loading a URL means loading the page — so we use this as an implicit indicator that the page will actually be loaded in the current tab if you select that entry.
+: Loading a URL means loading the page — so we use this as an implicit indicator that the page will actually be loaded in the current tab if you select that entry.
 
 The prioritized case is to switch to the active tab if one exists
 
-We have to test different weightings vs. [frecency] and how it works in real-life scenarios, but we should be able to find a setting that makes it accurate and predictable.
+: We have to test different weightings vs. [frecency] and how it works in real-life scenarios, but we should be able to find a setting that makes it accurate and predictable.
 
 Only the non-standard case needs a label
 
-We don’t want to use a tab icon or similar here, since there’s already way too much visual noise in the AwesomeBar layout.1 1I’m hoping we can convince Messieurs Stephen Horlander or Sean Martell to give the location bar results some visual design love for Firefox 3.7. In particular, we should get rid of the underline in the current style, since underline generally signifies a link in the browser context, and is a poor choice for a highlighting mechanism. This will require some user testing — but if it’s too confusing, we could add in another label.
+: We don’t want to use a tab icon or similar here, since there’s already way too much visual noise in the AwesomeBar layout.1 1I’m hoping we can convince Messieurs Stephen Horlander or Sean Martell to give the location bar results some visual design love for Firefox 3.7. In particular, we should get rid of the underline in the current style, since underline generally signifies a link in the browser context, and is a poor choice for a highlighting mechanism. This will require some user testing — but if it’s too confusing, we could add in another label.
 
 An upside of the combined approach is that the entries in the location bar results will keep the same size as the existing ones.
 
