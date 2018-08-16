@@ -94,6 +94,7 @@ As explained in the previous article, the Firefox team is currently busy getting
 *[CDNs]: Content Delivery Networks
 *[CPUs]: Central Processing Units
 *[CPU]: Central Processing Unit
+*[CRC]: Cyclic Redundancy Check
 *[CSS]: Cascading Style Sheets
 *[DMG]: Disk Image
 *[DSL]: Digital Subscriber Line
