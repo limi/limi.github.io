@@ -4,10 +4,10 @@ layout: post
 redirect_from: "/articles/composite-pages-listings-and-content-proxies"
 
 title: "Composite Pages, Listings & Content Proxies"
-subtitle: "Part 3:  Making it easy to do advanced page layout tasks in Plone"
+subtitle: "Part 3: Making it easy to do advanced page layout tasks in Plone"
 cover_image: mountains.jpg
 
-excerpt: "Part 3:  Making it easy to do advanced page layout tasks in Plone"
+excerpt: "Part 3: Making it easy to do advanced page layout tasks in Plone"
 
 ---
 

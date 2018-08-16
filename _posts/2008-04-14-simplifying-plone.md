@@ -4,12 +4,10 @@ layout: post
 redirect_from: "/articles/simplifying-plone"
 
 title: "Simplifying Plone"
-subtitle: "With Plone 3.1 in the Release Candidate stage, and with the continued work on the 3.x line, it’s time to look ahead and see what we can do to make the Plone experience even better for the
-next major releases"
+subtitle: "It’s time to look ahead and see what we can do to make the Plone experience even better for the upcoming releases"
 cover_image: mountains.jpg
 
-excerpt: "With Plone 3.1 in the Release Candidate stage, and with the continued work on the 3.x line, it’s time to look ahead and see what we can do to make the Plone experience even better for the
-next major releases"
+excerpt: "It’s time to look ahead and see what we can do to make the Plone experience even better for the upcoming releases"
 
 ---
 
