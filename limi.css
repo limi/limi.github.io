@@ -333,6 +333,12 @@ article img {
 	margin: 1em 0;
 }
 
+article img + em {
+	display: block;
+	clear: both;
+	font-size: 90%
+}
+
 article .subtitle {
 	font-size: 1.4em;
 	margin: 0.2em 0;
@@ -484,11 +490,10 @@ li {
 }
 
 dt {
-	/* font-style: italic; */
   font-variant: small-caps;
   margin-bottom: 0.25em;
   margin-top: 1em;
-  text-transform: lowercase;
+	text-transform: lowercase;
 }
 
 dd {
@@ -819,6 +824,8 @@ p.byline {
 		img {
 			max-width: 100% !important;
 		}
+
+
 
 		  @page {
 		margin: 2cm .5cm;

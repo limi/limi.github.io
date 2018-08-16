@@ -4,10 +4,10 @@ layout: post
 redirect_from: "/articles/tab-matching-in-the-location-bar/"
 
 title: "Tab matching in the Location Bar"
-subtitle: "In Firefox 3.7, we want to bring tab matching to the location bar"
+subtitle: "We want to bring tab matching to the location bar"
 cover_image: mountains.jpg
 
-excerpt: "In Firefox 3.7, we want to bring tab matching to the location bar"
+excerpt: "We want to bring tab matching to the location bar"
 
 ---
 One of the minor tweaks that we want in Firefox is the ability to switch tabs using the location bar. Yours truly has signed up to help shepherd this into the 3.7 release on the UI side.
@@ -17,8 +17,7 @@ This proposal is based on existing work from [Alex Faaborg] and [thoughts from M
 There are some smaller changes we want to try, as they simplify the interface:
 
 ![](/images/switch-to-tab.png)
-
-Apologies for butchering Faaborg’s original image for demonstration purposes. We might also want to tweak the wording to say something like “Switch to open tab” or similar to emphasize that aspect.
+*Apologies for butchering Faaborg’s original image for demonstration purposes. We might also want to tweak the wording to say something like “Switch to open tab” or similar to emphasize that aspect.*
 
 List the two choices adjacent to each other instead of using keyboard qualifiers like Shift or Alt
 
@@ -69,3 +68,6 @@ We can always tweak this behavior once we have the initial implementation in pla
 [frecency]: https://developer.mozilla.org/en/The_Places_frecency_algorithm
 [“Power User” interface]: /tab-matching/#power-users
 [Mozilla Wiki page for Tab Matching]: https://wiki.mozilla.org/Talk:Firefox/Projects/Tab_Matches_in_Awesomebar
+
+*[UI]: User Interface
+*[URL]: Uniform Resource Locator
