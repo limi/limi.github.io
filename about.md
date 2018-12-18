@@ -21,7 +21,7 @@ In 2003, he co-founded the company Plone Solutions — later known as Jarn. 
 
 In 2006, he moved from Norway to San Francisco and worked with [Google] as an interaction designer until 2009, when he started working with the [Firefox] team at [Mozilla] as the Firefox UX Lead. He then transitioned to Product Design Strategy at Mozilla.
 
-In 2013, he joined [Highfive] as a founding team member <abbr title="and">&amp;</abbr> VP Product Design.
+In 2013, he joined [Highfive] as a founding team member <abbr title="and">&amp;</abbr> SVP Product.
 
 **Other places you might have encountered his work:**
 
