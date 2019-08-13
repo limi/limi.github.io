@@ -68,6 +68,8 @@ body {
 	border: 0;
 	font-family: "Iowan Old Style", "Libre Baskerville", serif;
 	color: #333;
+	-webkit-font-smoothing: antialiased; /* Sorry */
+	-moz-osx-font-smoothing: grayscale; /* Sorry */
 }
 
 a {
