@@ -790,25 +790,28 @@ p.byline {
 /* Dark Mode overrides */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #333;
+    background-color: black;
     color: #eee;
   }
-article {
-	background: #333;
-	color: #eee;
+  article {
+      background: black;
+      color: #eee;
+  }
+  blockquote {
+      background-color: transparent;
+  }
 }
-
 /* OLED iPhones get pure black */
 @media(max-device-width : 568px) 
   and (-webkit-device-pixel-ratio : 3)
   and (prefers-color-scheme: dark) {
-  body {
-    background-color: black;
+    body {
+      background-color: black;
+    }
+    article {
+      background: black;
   }
-  article {
-	background: black;
 }
-
 /* Print layout */
 @media print {
     * {
