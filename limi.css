@@ -403,14 +403,6 @@ h2, h3 {
     margin: auto;
 }
 
-/* h2 + p:first-line,
-h3 + p:first-line,
-p.description + p:first-line,
-hr + p:first-line {
-    text-transform: lowercase;
-    font-variant: small-caps;
-}
-*/
 
 /* First words are transformed to small-caps if they are marked with a span immediately inside a p */
 p > span:first-child {
@@ -800,6 +792,11 @@ p.byline {
   blockquote {
       background-color: transparent;
   }
+header + section > p:first-child::first-letter,
+header + section > hr + p::first-letter,
+header + section > p:first-child > .dropcaps,
+header + section > hr + p > .dropcaps {
+  color: rgba(252,48,83);
 }
 /* OLED iPhones get pure black */
 @media(max-device-width : 568px) 
