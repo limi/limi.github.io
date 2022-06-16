@@ -418,7 +418,6 @@ header + section > hr + p {
 /* can't use text-indent because of Safari on iOS horizontal overflow bug :( */
 section > :not(hr) + p::first-letter {
 	display: inline-block;
-	padding-left: 1em;
 }
 
 header + section > p:first-child::first-letter,
@@ -456,7 +455,7 @@ p {
 	font-size: 1.1em;
 	line-height: 1.5em;
 	text-indent: 0;
-	margin: 0 0;
+	margin: 0.25em 0;
 	/* text-align: justify; */
   /* -moz-hyphens: auto; */
 }
