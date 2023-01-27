@@ -12,7 +12,7 @@ excerpt: "We want to bring tab matching to the location bar"
 ---
 One of the minor tweaks that we want in Firefox is the ability to switch tabs using the location bar. Yours truly has signed up to help shepherd this into the 3.7 release on the UI side.
 
-This proposal is based on existing work from [Alex Faaborg] and [thoughts from Madhava Enros and Aza Raskin] around putting tabs in the location bar, and doesn’t stray very far from their proposals, so read those first.
+This proposal is based on existing work from [Alex Faaborg] and thoughts from Madhava Enros and Aza Raskin around putting tabs in the location bar, and doesn’t stray very far from their proposals, so read those first.
 
 There are some smaller changes we want to try, as they simplify the interface:
 
@@ -64,7 +64,6 @@ This is a remnant of the old “Open” dialog from earlier versions of Firefox.
 We can always tweak this behavior once we have the initial implementation in place, but if there’s anything we didn’t think of — or improvements to the proposed approach — we’re always open to suggestions. In this case, please leave your comments on the [Mozilla Wiki page for Tab Matching] — thanks!
 
 [Alex Faaborg]: https://twitter.com/faaborg
-[thoughts from Madhava Enros and Aza Raskin]: http://www.azarask.in/blog/post/tabs-in-the-awesome-bar/
 [frecency]: https://developer.mozilla.org/en/The_Places_frecency_algorithm
 [“Power User” interface]: /tab-matching/#power-users
 [Mozilla Wiki page for Tab Matching]: https://wiki.mozilla.org/Talk:Firefox/Projects/Tab_Matches_in_Awesomebar
