@@ -47,3 +47,5 @@ inc:
   title:        "&#x1D40B;&#x1D408;&#x1D40C;&#x1D408;"
   cover_image:  mountains.jpg
   logo:         logo.png
+
+include: [".well-known"]
