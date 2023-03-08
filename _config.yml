@@ -1,5 +1,5 @@
 title:       "Alex Limi"
-description: "Alex Limi — on Product & Design"
+description: "Alex Limi on Product & Design"
 url:         http://limi.net
 source:      .
 destination: ./_site
@@ -44,7 +44,7 @@ plugins:
   - jekyll-sitemap
 
 inc:
-  title:        "&#x1D40B;&#x1D408;&#x1D40C;&#x1D408;"
+  title:        "Alex Limi"
   cover_image:  mountains.jpg
   logo:         logo.png
 
